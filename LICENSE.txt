@@ -1,0 +1,7 @@
+Copyright © 2025 Auto After Care LLC
+
+All rights reserved.
+
+This source code and website design are proprietary and confidential. Unauthorized copying, redistribution, modification, or commercial use is strictly prohibited without explicit written permission from Auto After Care LLC.
+
+This repository is for deployment and showcase purposes only.
