@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
           {/* Column 1 */}
           <Column>
-            <img src="/src/assets/logo.png" alt="Your Business Logo" className="h-24 w-auto mx-auto mb-4" />
+            <img src="/src/assets/logo.png" alt="Auto After Care logo" className="h-24 w-auto mx-auto mb-4" />
 
             <p>
               Established in 2025, Auto After Care is dedicated to providing

@@ -1,6 +1,6 @@
 import Column from '../Column'; // your renamed FooterColumn
 import Dropdown from '../Dropdown'; // your renamed FooterDropdown
-import BookNowButton from '../BookNowButton'; // your reusable button
+import Button from '../Button'; // your reusable button
 
 export default function Header() {
   return (
@@ -9,29 +9,29 @@ export default function Header() {
         <div className="w-full max-w-7xl grid grid-cols-3 items-center">
           {/* === Column 1: Logo === */}
           <Column>
-            <img src="/src/assets/logo.png" alt="Your Business Logo" className="h-20 w-auto mx-auto mb-4" />
+            <img src="/src/assets/logo.png" alt="Auto After Care logo" className="h-20 w-auto mx-auto mb-4" />
           </Column>
 
           {/* === Column 2: Navbar with Dropdown === */}
           <Column>
             <nav className="flex justify-center gap-4 text-sm">
-              <a href="#services" className="hover:text-blue-500 transition">Services</a>
               <Dropdown
-                title="Protect"
+                title="Services"
                 items={[
-                  { label: 'Ceramic Coating', href: '#ceramic' },
-                  { label: 'PPF', href: '#ppf' },
+                  { label: 'Detail Packages', href: '#detail-packages' },
+                  { label: 'Paint Correction', href: '#paint-correction' },
+                  { label: 'Ceramic Coating', href: '#ceramic-coating' },
                 ]}
               />
               <a href="#about" className="hover:text-blue-500 transition">About</a>
-              <a href="#contact" className="hover:text-blue-500 transition">Contact</a>
+              <a href="#testimonial" className="hover:text-blue-500 transition">Testimonial</a>
             </nav>
           </Column>
 
           {/* === Column 3: Book Now === */}
           <Column>
-          <div className="flex justify-end">
-            <BookNowButton />
+            <div className="flex justify-end">
+              <Button>Book Now</Button>
             </div>
           </Column>
         </div>
