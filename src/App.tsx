@@ -1,12 +1,12 @@
-import Footer from "./components/Footer";
+import Footer from "./components/footer/Footer";
+import Header from "./components/header/Header";
 
 export default function LandingPage() {
   return (
-    <div className="bg-[#111111] flex flex-col min-h-screen transition-colors duration-500">
-      
-    
-      <main>
-        <p>test</p>
+    <div className="flex flex-col min-h-screen">
+      <Header />
+      <main className="flex-grow">
+
       </main>
       <Footer />
     </div>
