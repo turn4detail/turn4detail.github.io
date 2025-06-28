@@ -6,7 +6,7 @@ export default function LandingPage() {
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow">
-
+        <p className="text-black">Still under construction lol.</p>
       </main>
       <Footer />
     </div>
