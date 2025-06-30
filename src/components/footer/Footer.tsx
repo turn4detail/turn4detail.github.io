@@ -1,6 +1,7 @@
 import FooterBlock from "./FooterBlock";
 import Column from "../Column";
 import Dropdown from "../Dropdown";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -9,7 +10,9 @@ export default function Footer() {
         <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
           {/* Column 1 */}
           <Column>
-            <img src="/src/assets/logo.png" alt="Auto After Care logo" className="h-24 w-auto mx-auto mb-4" />
+            <Link to="/">
+              <img src="/logo.png" alt="Auto After Care logo" className="h-20 w-auto mx-auto mb-4" />
+            </Link>
 
             <p>
               Established in 2025, Auto After Care is dedicated to providing
@@ -21,16 +24,16 @@ export default function Footer() {
             </p>
           </Column>
 
-          {/* Column 2 */}
+          {/* Column 2 todo fix links*/}
           <Column>
             <FooterBlock title="SERVICES OFFERED">
               <Dropdown
                 title="Detail Packages"
                 items={[
-                  { label: 'Exterior Detail', href: '#exterior-detail' },
-                  { label: 'Interior Detail', href: '#interior-detail' },
-                  { label: 'Step 1 Detail', href: '#full-detail' },
-                  { label: 'Maintenance Detail', href: '#maintenance-detail' },
+                  { label: 'Exterior Detail', to: '#exterior-detail' },
+                  { label: 'Interior Detail', to: '#interior-detail' },
+                  { label: 'Step 1 Detail', to: '#full-detail' },
+                  { label: 'Maintenance Detail', to: '#maintenance-detail' },
                 ]}
               />
 
@@ -38,8 +41,8 @@ export default function Footer() {
               <Dropdown
                 title="Paint Correction"
                 items={[
-                  { label: 'Step 2 Detail', href: '#gloss-enhancement-polish' },
-                  { label: 'Step 3 Detail', href: '#2-step-correction' },
+                  { label: 'Step 2 Detail', to: '#gloss-enhancement-polish' },
+                  { label: 'Step 3 Detail', to: '#2-step-correction' },
                 ]}
               />
 
@@ -47,7 +50,7 @@ export default function Footer() {
               <Dropdown
                 title="Ceramic Coating"
                 items={[
-                  { label: 'Step 4 Detail', href: '#ceramic-coating' },
+                  { label: 'Step 4 Detail', to: '#ceramic-coating' },
                 ]}
               />
             </FooterBlock>
