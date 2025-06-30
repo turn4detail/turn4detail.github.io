@@ -5,20 +5,22 @@ import About from "./pages/About";
 import DetailPackages from "./pages/DetailPackages";
 import PaintCorrection from "./pages/PaintCorrection";
 import CeramicCoating from "./pages/CeramicCoating";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 export default function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/detail-packages" element={<DetailPackages />} />
-          <Route path="/paint-correction" element={<PaintCorrection />} />
-          <Route path="/ceramic-coating" element={<CeramicCoating />} />
-        </Routes>
+        <HashRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/detail-packages" element={<DetailPackages />} />
+            <Route path="/paint-correction" element={<PaintCorrection />} />
+            <Route path="/ceramic-coating" element={<CeramicCoating />} />
+          </Routes>
+        </HashRouter>
       </main>
       <Footer />
     </div>
