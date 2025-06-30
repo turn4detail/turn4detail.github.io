@@ -38,7 +38,7 @@ export default function Header() {
 
           {/* Button */}
           <div className="flex justify-center md:justify-end">
-            <Button>Book Now</Button>
+            <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>Book Now</Button>
           </div>
         </div>
       </div>

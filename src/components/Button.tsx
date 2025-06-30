@@ -5,15 +5,17 @@ interface ButtonProps {
   onClick?: () => void;
   type?: 'button' | 'submit' | 'reset';
   className?: string;
+  href?: string; 
 }
 
 export default function Button({
   children,
   onClick,
   type = 'button',
-  className = ''
+  className = '',
+  href
 }: ButtonProps) {
-  return (
+  const buttonElement = (
     <button
       type={type}
       onClick={onClick}
@@ -41,4 +43,14 @@ export default function Button({
       {children}
     </button>
   );
+
+  if (href) {
+    return (
+      <a href={href} target="_blank" rel="noopener noreferrer">
+        {buttonElement}
+      </a>
+    );
+  }
+
+  return buttonElement;
 }

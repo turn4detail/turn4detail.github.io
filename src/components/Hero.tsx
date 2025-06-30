@@ -37,7 +37,7 @@ const Hero: React.FC<HeroProps> = ({
         <h1 className="text-white italic uppercase font-bold mb-2">
           {heading} <span className="text-blue-400">{highlight}</span>
         </h1>
-        <Button>Book Now</Button>
+        <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>Book Now</Button>
       </div>
     </section>
   );
