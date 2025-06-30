@@ -20,18 +20,21 @@ export default function Button({
       className={`
         inline-flex
         items-center
-        rounded-md
+        bg-blue-600
         border
-        border-zinc-700
-        bg-zinc-900
+        border-blue-400
         px-4
         py-2
-        text-sm
-        font-medium
-        text-white
+        text-lg
+        text-black
+        font-bold
+        uppercase
         shadow-sm
         transition
-        hover:opacity-80
+        hover:bg-blue-500
+        hover:border-blue-300
+        hover:text-zinc-100
+        duration-300
         ${className}
       `}
     >
