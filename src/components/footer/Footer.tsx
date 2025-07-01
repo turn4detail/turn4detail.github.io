@@ -5,13 +5,18 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="w-full w-screen bg-[#111111]">
+    <footer className="w-full bg-[#111111]">
       <div className="w-full flex justify-center px-4 py-8">
-        <div className="w-full max-w-7xl grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+        <div className="w-full max-w-7xl flex flex-col md:flex-row md:justify-between md:items-start gap-8 text-left">
+          
           {/* Column 1 */}
           <Column>
             <Link to="/">
-              <img src="/logo.png" alt="Auto After Care logo" className="h-20 w-auto mx-auto mb-4" />
+              <img
+                src="/logo.png"
+                alt="Auto After Care logo"
+                className="h-20 w-auto mx-auto mb-4"
+              />
             </Link>
 
             <p>
@@ -24,7 +29,7 @@ export default function Footer() {
             </p>
           </Column>
 
-          {/* Column 2 todo fix links*/}
+          {/* Column 2 */}
           <Column>
             <FooterBlock title="SERVICES OFFERED">
               <Dropdown
@@ -37,7 +42,6 @@ export default function Footer() {
                 ]}
               />
 
-              {/* Paint Correction */}
               <Dropdown
                 title="Paint Correction"
                 items={[
@@ -46,7 +50,6 @@ export default function Footer() {
                 ]}
               />
 
-              {/* Ceramic coating */}
               <Dropdown
                 title="Ceramic Coating"
                 items={[
@@ -70,12 +73,25 @@ export default function Footer() {
 
             <FooterBlock title="FOLLOW US">
               <div className="flex gap-4 mt-2">
-                <a href="https://www.instagram.com" target="_blank" rel="noreferrer" className="hover:text-gray-400">Instagram</a>
-                <a href="https://www.facebook.com" target="_blank" rel="noreferrer" className="hover:text-gray-400">Facebook</a>
+                <a
+                  href="https://www.instagram.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-gray-400"
+                >
+                  Instagram
+                </a>
+                <a
+                  href="https://www.facebook.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-gray-400"
+                >
+                  Facebook
+                </a>
               </div>
             </FooterBlock>
           </Column>
-
 
           {/* Column 3 */}
           <Column>
@@ -113,3 +129,4 @@ export default function Footer() {
     </footer>
   );
 }
+

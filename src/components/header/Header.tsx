@@ -1,4 +1,4 @@
-import Column from '../Column';
+
 import Dropdown from '../Dropdown';
 import Button from '../Button';
 import { Link } from 'react-router-dom';
@@ -20,7 +20,7 @@ export default function Header() {
             </Link>
           </div>
 
-          {/* Nav */}
+          {/* Navigation */}
           <nav className="flex flex-col items-center md:flex-row md:items-center gap-2 md:gap-6 text-sm">
             <Dropdown
               title="Services"

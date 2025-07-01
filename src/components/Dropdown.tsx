@@ -30,13 +30,12 @@ export default function Dropdown({
       {/* Label + Chevron */}
       <div
         className="flex items-center gap-1 cursor-pointer text-white group-hover:text-blue-500 transition-colors"
-        onClick={toggleDropdown} // ← mobile tap
+        onClick={toggleDropdown}
       >
         <p className="mb-0 font-bold text-sm">{title}</p>
         <svg
-          className={`w-4 h-4 transition-transform duration-300 group-hover:rotate-180 ${
-            isOpen ? 'rotate-180' : ''
-          }`}
+          className={`w-4 h-4 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''
+            }`}
           fill="none"
           stroke="currentColor"
           strokeWidth="2"
@@ -69,13 +68,17 @@ export default function Dropdown({
           </ul>
         </div>
       ) : (
-        <div className="overflow-hidden max-h-0 group-hover:max-h-40 transition-all duration-500">
+        <div
+          className={`overflow-hidden transition-all duration-500 ${isOpen ? 'max-h-40' : 'max-h-0'
+            }`}
+        >
           <ul className="text-sm text-gray-400 space-y-2 mt-2">
             {items.map((item) => (
               <li key={item.to}>
                 <Link
                   to={item.to}
                   className="text-gray-400 hover:text-white transition-colors"
+                  onClick={() => setIsOpen(false)}
                 >
                   {item.label}
                 </Link>
@@ -87,6 +90,7 @@ export default function Dropdown({
     </div>
   );
 }
+
 
 
 
