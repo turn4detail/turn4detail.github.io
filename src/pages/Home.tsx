@@ -16,9 +16,9 @@ export default function Home() {
         <h2 className="text-black text-md text-2xl italic font-extrabold mb-4">AUTO CARE SERVICES</h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          <Card title="Detailing Packages" image="/gifs/full-detail-card-1.gif" to="/detail-packages" />
-          <Card title="Paint Correction" image="/gifs/paint-correction-card-1.gif" to="/paint-correction" />
-          <Card title="Ceramic Coating" image="/gifs/ceramic-coating-card-1.gif" to="/ceramic-coating" />
+          <Card title="Detailing Packages" image="/video/full-detail-video.mp4" to="/detail-packages" />
+          <Card title="Paint Correction" image="/video/paint-correction-video.mp4" to="/paint-correction" />
+          <Card title="Ceramic Coating" image="/video/ceramic-coating-video.mp4" to="/ceramic-coating" />
         </div>
       </Section>
     </div>
