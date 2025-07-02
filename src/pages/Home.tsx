@@ -1,10 +1,55 @@
 import Hero from "../components/Hero";
 import Section from "../components/Section";
 import Card from "../components/Card";
+import { Helmet } from "react-helmet";
 
 export default function Home() {
+  const homeSchema = {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "Auto After Care",
+    "url": "https://autoaftercare.github.io/",
+    "logo": "https://autoaftercare.github.io/logo.png",
+    "image": "https://autoaftercare.github.io/og-preview.jpg",
+    "description": "Auto After Care offers premium mobile & studio car detailing, paint correction, ceramic coating, and cinematic car photography in Kent and surrounding areas.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kent",
+      "addressRegion": "WA",
+      "postalCode": "98031",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-425-306-2183",
+    "areaServed": {
+      "@type": "Place",
+      "name": "Kent"
+    },
+    "openingHours": "Mo-Fr 09:00-18:00",
+    "sameAs": [
+      "https://www.instagram.com/autoaftercare",
+      "https://www.tiktok.com/@autoaftercare"
+    ]
+  };
+
   return (
     <div>
+      <Helmet>
+        <title>Auto After Care Mobile & Studio Car Detailing Service</title>
+        <meta
+          name="description"
+          content="Mobile & studio car detailing services in Kent, WA. We offer detailing packages, paint correction, ceramic coating, and car photography services."
+        />
+        <meta
+          name="keywords"
+          content="Kent car detailing, mobile detailing, paint correction, ceramic coating, car photography"
+        />
+        <link rel="canonical" href="https://autoaftercare.github.io/"/>
+
+        <script type="application/ld+json">
+          {JSON.stringify(homeSchema)}
+        </script>
+      </Helmet>
+
       <Hero
         bg="/background/home-bg.jpg"
         subheading="MOBILE & STUDIO SERVICES - WE COME TO YOU OR YOU COME TO US"

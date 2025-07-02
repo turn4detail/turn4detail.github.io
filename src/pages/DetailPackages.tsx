@@ -1,9 +1,52 @@
 import Hero from "../components/Hero";
 import Section from "../components/Section";
+import { Helmet } from "react-helmet";
 
 export default function DetailPackages() {
+  const detailPackagesSchema = {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "Auto After Care",
+    "url": "https://autoaftercare.github.io/detail-packages",
+    "logo": "https://autoaftercare.github.io/logo.png",
+    "description": "Explore our premium detailing packages at Auto After Care. Keep your vehicle looking its best with mobile and studio car detailing in Kent and nearby areas.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kent",
+      "addressRegion": "WA",
+      "postalCode": "98031",
+      "addressCountry": "US"
+    },
+    "serviceType": "Auto Detailing Packages",
+    "telephone": "+1-425-306-2183",
+    "areaServed": {
+      "@type": "Place",
+      "name": "Kent"
+    },
+    "sameAs": [
+      "https://www.instagram.com/autoaftercare",
+      "https://www.tiktok.com/@autoaftercare"
+    ]
+  };
+  
   return (
     <div>
+      <Helmet>
+        <title>Convenient Detail Packages in Kent by Auto After Care</title>
+        <meta
+          name="description"
+          content="Explore our premium detailing packages to keep your vehicle looking its best. Mobile & studio car detailing services in Kent and surrounding areas."
+        />
+        <meta
+          name="keywords"
+          content="Kent car detailing packages, mobile detailing, auto detailing, full detail service"
+        />
+        <link rel="canonical" href="https://autoaftercare.github.io/detail-packages"/>
+        <script type="application/ld+json">
+          {JSON.stringify(detailPackagesSchema)}
+        </script>
+      </Helmet>
+
       <Hero
         bg="/background/detail-packages-bg.jpg"
         subheading="COMPREHENSIVE AUTO CARE & PROTECTION SERVICES"

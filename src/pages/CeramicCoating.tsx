@@ -1,9 +1,52 @@
 import Hero from "../components/Hero";
 import Section from "../components/Section";
+import { Helmet } from "react-helmet";
 
 export default function CeramicCoating() {
+  const ceramicCoatingSchema = {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "Auto After Care",
+    "url": "https://autoaftercare.github.io/ceramic-coating",
+    "logo": "https://autoaftercare.github.io/logo.png",
+    "description": "Protect your vehicle with premium ceramic coating services by Auto After Care. Enhance gloss, durability, and paint protection for cars in Kent and nearby areas.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kent",
+      "addressRegion": "WA",
+      "postalCode": "98031",
+      "addressCountry": "US"
+    },
+    "serviceType": "Ceramic Coating",
+    "telephone": "+1-425-306-2183",
+    "areaServed": {
+      "@type": "Place",
+      "name": "Kent"
+    },
+    "sameAs": [
+      "https://www.instagram.com/autoaftercare",
+      "https://www.tiktok.com/@autoaftercare"
+    ]
+  };
+
   return (
     <div>
+      <Helmet>
+        <title>Top Ceramic Coating Services in Kent by Auto After Care</title>
+        <meta
+          name="description"
+          content="Protect your vehicle with premium ceramic coating services by Auto After Care. Enhance shine, durability, and paint protection in Kent and surrounding areas."
+        />
+        <meta
+          name="keywords"
+          content="Kent ceramic coating, car ceramic coating, paint protection, Auto After Care"
+        />
+        <link rel="canonical" href="https://autoaftercare.github.io/ceramic-coating"/>
+        <script type="application/ld+json">
+          {JSON.stringify(ceramicCoatingSchema)}
+        </script>
+      </Helmet>
+
       <Hero
         bg="/background/ceramic-coating-bg.jpg"
         subheading="FOR THE ULTIMATE ENTHUSIASTS - DEEP GLOSS, ELITE HYDROPHOBICS & DURABLE PROTECTION"

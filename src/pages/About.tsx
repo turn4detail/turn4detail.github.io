@@ -1,9 +1,51 @@
-import Hero from '../components/Hero';
-import Section from '../components/Section';
+import Hero from "../components/Hero";
+import Section from "../components/Section";
+import { Helmet } from "react-helmet"
 
 export default function About() {
+  const aboutSchema = {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "Auto After Care",
+    "url": "https://autoaftercare.github.io/about",
+    "logo": "https://autoaftercare.github.io/logo.png",
+    "description": "Learn more about Auto After Care — your trusted local provider of premium car detailing, paint correction, ceramic coating, and car photography services in Kent and surrounding areas.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Kent",
+      "addressRegion": "WA",
+      "postalCode": "98031",
+      "addressCountry": "US"
+    },
+    "telephone": "+1-425-306-2183",
+    "areaServed": {
+      "@type": "Place",
+      "name": "Kent"
+    },
+    "sameAs": [
+      "https://www.instagram.com/autoaftercare",
+      "https://www.tiktok.com/@autoaftercare"
+    ]
+  };
+
   return (
     <div>
+      <Helmet>
+        <title>Learn About Auto After Care</title>
+        <meta
+          name="description"
+          content="Learn about Auto After Care—your trusted team for premium auto detailing, paint correction, ceramic coating, and car photography in Kent and surrounding areas."
+        />
+        <meta
+          name="keywords"
+          content="auto after care, car detailing in kent, auto detailing, car cleaning services, ceramic coat"
+        />
+        <link rel="canonical" href="https://autoaftercare.github.io/about"/>
+        <script type="application/ld+json">
+          {JSON.stringify(aboutSchema)}
+        </script>
+      </Helmet>
+
       <Hero
         bg="/background/about-bg.jpg"
         subheading="OUR STORY & FREQUENTLY ASKED QUESTIONS"
