@@ -67,6 +67,11 @@ export default function Home() {
           <Card title="Ceramic Coating" video="/video/ceramic-coating-ffmpeg-1.mp4" poster="/poster/ceramic-coating-poster.jpg" to="/ceramic-coating" />
         </div>
       </Section>
+
+      <Section bgColor="bg-zinc-800">
+        <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div className="elfsight-app-12c95781-bd68-4f07-80c2-6bb6b3ac10c2" data-elfsight-app-lazy></div>
+      </Section>
     </div>
   );
 }
