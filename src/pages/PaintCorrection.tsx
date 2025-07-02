@@ -5,8 +5,8 @@ export default function PaintCorrection() {
     <Hero
       bg="/background/paint-correction-bg.jpg"
       subheading="WHETHER YOU'RE AN ENTHUSIASTS OR JUST TIRED OF SWIRLS, WE'VE GOT YOU"
-      heading="PAINT CORRECTION"
-      highlight=""
+      heading=""
+      highlight="PAINT CORRECTION"
     />
   );
 }

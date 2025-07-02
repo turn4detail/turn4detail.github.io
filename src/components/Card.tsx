@@ -13,7 +13,7 @@ export default function Card({ title, video, poster, to }: CardProps) {
       to={to}
       className="
         relative overflow-hidden shadow-mdAdd commentMore actions
-          h-48 md:h-64 lg:h-72
+          h-64 lg:h-72
           cursor-pointer
           transition transform hover:scale-105
           [clip-path:polygon(0_0,100%_0,100%_85%,85%_100%,0%_100%)]

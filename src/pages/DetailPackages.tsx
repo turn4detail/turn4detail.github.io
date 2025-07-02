@@ -5,8 +5,8 @@ export default function DetailPackages() {
     <Hero
       bg="/background/detail-packages-bg.jpg"
       subheading="COMPREHENSIVE AUTO CARE & PROTECTION SERVICES"
-      heading="DETAILING PACKAGES"
-      highlight=""
+      heading=""
+      highlight="DETAILING PACKAGES"
     />
   );
 }

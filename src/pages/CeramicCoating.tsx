@@ -5,8 +5,8 @@ export default function CeramicCoating() {
     <Hero
       bg="/background/ceramic-coating-bg.jpg"
       subheading="FOR THE ULTIMATE ENTHUSIASTS - DEEP GLOSS, ELITE HYDROPHOBICS & DURABLE PROTECTION"
-      heading="CERAMIC COATING"
-      highlight=""
+      heading=""
+      highlight="CERAMIC COATING"
     />
   );
 }

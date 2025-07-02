@@ -28,7 +28,7 @@ const Hero: React.FC<HeroProps> = ({
       <div className="absolute inset-0 bg-black/30"></div>
 
       {/* Text Overlay */}
-      <div className="relative z-10 max-w-2xl text-left">
+      <div className="relative z-10 max-w-2xl text-left text-shadow-lg">
         <p className="text-white uppercase font-bold mb-2">
           {subheading}
         </p>
