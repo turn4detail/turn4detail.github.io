@@ -2,7 +2,7 @@ import FooterBlock from "./FooterBlock";
 import Column from "../Column";
 import Dropdown from "../Dropdown";
 import { Link } from "react-router-dom";
-import { FaPhoneAlt, FaEnvelope, FaInstagram, FaFacebookF, FaYoutube, FaTiktok } from 'react-icons/fa';
+import { FaPhoneAlt, FaEnvelope, FaInstagram, FaYoutube, FaTiktok } from 'react-icons/fa';
 
 export default function Footer() {
   return (
@@ -34,27 +34,19 @@ export default function Footer() {
           <Column>
             <FooterBlock title="SERVICES OFFERED">
               <Dropdown
-                title="Detail Packages"
+                title="Detailing Services"
                 items={[
-                  { label: 'Exterior Detail', to: '#exterior-detail' },
-                  { label: 'Interior Detail', to: '#interior-detail' },
-                  { label: 'Step 1 Detail', to: '#full-detail' },
-                  { label: 'Maintenance Detail', to: '#maintenance-detail' },
+                  { label: 'Packages', to: '/detail-packages' },
+                  { label: 'Paint Correction', to: '/paint-correction' },
+                  { label: 'Ceramic Coating', to: '/ceramic-coating' },
                 ]}
               />
 
               <Dropdown
-                title="Paint Correction"
+                title="Photography Services"
                 items={[
-                  { label: 'Step 2 Detail', to: '#gloss-enhancement-polish' },
-                  { label: 'Step 3 Detail', to: '#2-step-correction' },
-                ]}
-              />
-
-              <Dropdown
-                title="Ceramic Coating"
-                items={[
-                  { label: 'Step 4 Detail', to: '#ceramic-coating' },
+                  { label: 'Photography', to: '/404-not-found' },
+                  { label: 'Rollers & Videos', to: '/404-not-found' },
                 ]}
               />
             </FooterBlock>
