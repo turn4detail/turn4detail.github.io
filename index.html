@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Auto After Care</title>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Auto After Care</title>
+</head>
 
-  <body class="min-h-screen w-full">
-    <div id="root" class="min-h-screen w-full"></div>
-      <script type="module" src="./src/main.tsx"></script>
-  </body>
+<body class="min-h-screen w-full">
+  <div id="root" class="min-h-screen w-full"></div>
+  <script type="module" src="./src/main.tsx"></script>
+</body>
+
+<script>
+  // SPA redirect handler for GitHub Pages: https://github.com/rafgraph/spa-github-pages
+  if (
+    location.pathname !== "/" &&
+    !location.pathname.includes(".") &&
+    sessionStorage.redirect === undefined
+  ) {
+    sessionStorage.redirect = location.href;
+    location.replace("/");
+  }
+</script>
+
 </html>

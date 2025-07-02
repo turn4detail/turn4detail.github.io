@@ -15,7 +15,7 @@ export default function App() {
       <main className="flex-grow">
         <Routes>
             <Route path="/" element={<Home />} />
-             <Route path="/404-not-found" element={<NotFound404 />} />
+            <Route path="/*" element={<NotFound404 />} />
             <Route path="/about" element={<About />} />
             <Route path="/detail-packages" element={<DetailPackages />} />
             <Route path="/paint-correction" element={<PaintCorrection />} />
