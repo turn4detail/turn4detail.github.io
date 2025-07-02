@@ -78,7 +78,7 @@ export default function CeramicCoating() {
                 <li>UV protection & leather/floormat conditioning</li>
                 <li>Maintenance plan eligible</li>
               </ul>
-              <p className="font-bold text-lg">Starting at $800</p>
+              <p className="font-bold text-lg">Starting at $1000</p>
             </div>
           </div>
         </div>
