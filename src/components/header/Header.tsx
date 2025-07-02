@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
   return (
-    <header className="w-full bg-[#111111] text-white">
+    <header id="header" className="w-full bg-[#111111] text-white">
       <div className="w-full max-w-7xl mx-auto px-4 py-4">
         <div className="flex flex-col items-center md:flex-row md:items-center md:justify-between gap-4">
           
