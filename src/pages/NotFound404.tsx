@@ -1,5 +1,4 @@
 import Hero from '../components/Hero';
-import Section from '../components/Section';
 
 export default function NotFound404() {
   return (
