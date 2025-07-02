@@ -2,13 +2,14 @@ import FooterBlock from "./FooterBlock";
 import Column from "../Column";
 import Dropdown from "../Dropdown";
 import { Link } from "react-router-dom";
+import { FaPhoneAlt, FaEnvelope, FaInstagram, FaFacebookF, FaYoutube, FaTiktok } from 'react-icons/fa';
 
 export default function Footer() {
   return (
     <footer className="w-full bg-[#111111]">
       <div className="w-full flex justify-center px-4 py-8">
         <div className="w-full max-w-7xl flex flex-col md:flex-row md:justify-between md:items-start gap-8 text-left">
-          
+
           {/* Column 1 */}
           <Column>
             <Link to="/">
@@ -74,20 +75,29 @@ export default function Footer() {
             <FooterBlock title="FOLLOW US">
               <div className="flex gap-4 mt-2">
                 <a
-                  href="https://www.instagram.com"
+                  href="https://www.instagram.com/autoaftercare"
                   target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-gray-400"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-blue-500 hover:underline"
                 >
-                  Instagram
+                  <FaInstagram className="w-8 h-8" />
+                </a>
+
+                <a
+                  href="https://www.youtube.com/@autoaftercare"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-blue-500 hover:underline"
+                >
+                  <FaYoutube className="w-8 h-8" />
                 </a>
                 <a
-                  href="https://www.facebook.com"
+                  href="https://www.tiktok.com/@autoaftercare"
                   target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-gray-400"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1 text-blue-500 hover:underline"
                 >
-                  Facebook
+                  <FaTiktok className="w-8 h-8" />
                 </a>
               </div>
             </FooterBlock>
@@ -96,15 +106,15 @@ export default function Footer() {
           {/* Column 3 */}
           <Column>
             <FooterBlock title="CONTACT INFO">
-              <p>
-                Phone:{' '}
-                <a href="tel:+14253062183" className="text-gray-400">
+              <p className="flex items-center gap-2">
+                <FaPhoneAlt className="w-6 h-6 text-blue-500" />
+                <a href="tel:+14253062183" className="text-blue-500">
                   +1 (425) 306-2183
                 </a>
               </p>
-              <p>
-                Email:{' '}
-                <a href="mailto:autoaftercare@gmail.com" className="text-gray-400">
+              <p className="flex items-center gap-2 mt-2">
+                <FaEnvelope className="w-6 h-6 text-blue-500" />
+                <a href="mailto:autoaftercare@gmail.com" className="text-blue-500">
                   autoaftercare@gmail.com
                 </a>
               </p>
