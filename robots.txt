@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://autoaftercare.github.io/sitemap.xml
