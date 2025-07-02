@@ -84,7 +84,6 @@ export default function CeramicCoating() {
         </div>
       </Section>
 
-      {/* todo is ok? */}
       <Section bgColor="bg-zinc-800">
         <div className="flex justify-center text-zinc-100 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
           <div className="grid grid-cols-1">
