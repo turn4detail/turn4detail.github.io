@@ -31,7 +31,7 @@ export default function Header() {
                 { label: 'Ceramic Coating', to: "/ceramic-coating" },
               ]}
             />
-            <Link to="/about" className="hover:text-blue-500 transition">
+            <Link to="/about" className="text-white hover:underline hover:text-blue-500 transition">
               About
             </Link>
           </nav>

@@ -27,12 +27,12 @@ export default function Dropdown({
       className={`group ${isOverlay ? 'relative inline-block' : 'mb-2'}`}
       onMouseLeave={() => setIsOpen(false)}
     >
-      {/* Label + Chevron */}
+      {/* Label + chevron */}
       <div
         className="flex items-center gap-1 cursor-pointer text-white group-hover:text-blue-500 transition-colors"
         onClick={toggleDropdown}
       >
-        <p className="mb-0 font-bold text-sm">{title}</p>
+        <p className="text-white hover:underline hover:text-blue-500 mb-0 font-bold text-sm transition">{title}</p>
         <svg
           className={`w-4 h-4 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''
             }`}
@@ -45,7 +45,7 @@ export default function Dropdown({
         </svg>
       </div>
 
-      {/* Dropdown Content */}
+      {/* Dropdown */}
       {isOverlay ? (
         <div
           className={`absolute left-0 top-full w-40 bg-[#111111] text-white shadow-lg z-50 transition duration-200
@@ -58,7 +58,7 @@ export default function Dropdown({
               <li key={item.to}>
                 <Link
                   to={item.to}
-                  className="block px-4 py-2 hover:opacity-80 transition-colors duration-500"
+                  className="hover:underline block px-4 py-2 hover:opacity-80 transition-colors duration-500"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.label}
@@ -77,7 +77,7 @@ export default function Dropdown({
               <li key={item.to}>
                 <Link
                   to={item.to}
-                  className="text-gray-400 hover:text-white transition-colors"
+                  className="hover:underline text-gray-400 hover:text-white transition-colors"
                   onClick={() => setIsOpen(false)}
                 >
                   {item.label}

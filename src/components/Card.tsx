@@ -31,9 +31,9 @@ export default function Card({ title, video, poster, to }: CardProps) {
       >
         Your browser does not support the video tag.
       </video>
-      
+
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition duration-300" />
+      <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition duration-300"/>
 
       {/* Title */}
       <h3 className="absolute inset-x-0 bottom-0 z-10 text-white text-lg md:text-xl font-bold px-4 py-3 bg-gradient-to-t from-black/70 to-transparent">
