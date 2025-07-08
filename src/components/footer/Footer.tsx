@@ -7,6 +7,8 @@ import { FaPhoneAlt, FaEnvelope, FaInstagram, FaYoutube, FaTiktok } from 'react-
 export default function Footer() {
   return (
     <footer className="w-full bg-[#111111]">
+
+      {/* Row 1 */}
       <div className="w-full flex justify-center px-4 py-8">
         <div className="w-full max-w-7xl flex flex-col md:flex-row md:justify-between md:items-start gap-8 text-left">
 
@@ -70,7 +72,7 @@ export default function Footer() {
                   href="https://www.instagram.com/autoaftercare"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-blue-500 hover:underline"
+                  className="flex items-center gap-1 text-blue-500 hover:underline hover:text-white transition"
                 >
                   <FaInstagram className="w-8 h-8" />
                 </a>
@@ -79,7 +81,7 @@ export default function Footer() {
                   href="https://www.youtube.com/@autoaftercare"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-blue-500 hover:underline"
+                  className="flex items-center gap-1 text-blue-500 hover:underline hover:text-white transition"
                 >
                   <FaYoutube className="w-8 h-8" />
                 </a>
@@ -87,7 +89,7 @@ export default function Footer() {
                   href="https://www.tiktok.com/@autoaftercare"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-1 text-blue-500 hover:underline"
+                  className="flex items-center gap-1 text-blue-500 hover:underline hover:text-white transition"
                 >
                   <FaTiktok className="w-8 h-8" />
                 </a>
@@ -100,13 +102,13 @@ export default function Footer() {
             <FooterBlock title="CONTACT INFO">
               <p className="flex items-center gap-2">
                 <FaPhoneAlt className="w-6 h-6 text-blue-500" />
-                <a href="tel:+14253062183" className="text-blue-500">
+                <a href="tel:+14253062183" className="text-blue-500 hover:underline hover:text-white transition">
                   +1 (425) 306-2183
                 </a>
               </p>
               <p className="flex items-center gap-2 mt-2">
                 <FaEnvelope className="w-6 h-6 text-blue-500" />
-                <a href="mailto:autoaftercare@gmail.com" className="text-blue-500">
+                <a href="mailto:autoaftercare@gmail.com" className="text-blue-500 hover:underline hover:text-white transition">
                   autoaftercare@gmail.com
                 </a>
               </p>
@@ -125,8 +127,18 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="py-4 text-center mt-4 text-zinc-400 text-xs">
+      {/* Row 2 */}
+      <div className="w-full max-w-7xl mx-auto px-4 py-4 mt-4 flex flex-col md:flex-row justify-between items-center text-zinc-400 text-sm">
         <p>© {new Date().getFullYear()} Auto After Care. All rights reserved.</p>
+        
+        <div className="flex gap-4 mt-2 md:mt-0">
+          <Link to="/terms-and-conditions" className="hover:underline hover:text-white transition">
+            Terms & Conditions
+          </Link>
+          <Link to="/privacy-policy" className="hover:underline hover:text-white transition">
+            Privacy Policy
+          </Link>
+        </div>
       </div>
     </footer>
   );
