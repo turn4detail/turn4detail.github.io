@@ -7,7 +7,6 @@ import { FaPhoneAlt, FaEnvelope, FaInstagram, FaYoutube, FaTiktok } from 'react-
 export default function Footer() {
   return (
     <footer className="w-full bg-[#111111]">
-
       {/* Row 1 */}
       <div className="w-full flex justify-center px-4 py-8">
         <div className="w-full max-w-7xl flex flex-col md:flex-row md:justify-between md:items-start gap-8 text-left">
