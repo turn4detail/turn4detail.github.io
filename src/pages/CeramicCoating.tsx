@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Section from "../components/Section";
-import { Helmet } from "react-helmet";
+import Helmet from "react-helmet";
+import Button from "../components/Button";
 
 export default function CeramicCoating() {
   const ceramicCoatingSchema = {
@@ -87,7 +88,7 @@ export default function CeramicCoating() {
       <Section bgColor="bg-zinc-800">
         <div className="flex justify-center text-zinc-100 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
           <div className="grid grid-cols-1">
-            <h3 className="text-2xl md:text-3xl font-extrabold italic">READY TO BOOK? <a className="inherit" href="#">CLICK HERE!</a></h3>
+            <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>READY TO BOOK?</Button>
           </div>
         </div>
       </Section>

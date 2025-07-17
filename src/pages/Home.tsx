@@ -1,7 +1,8 @@
 import Hero from "../components/Hero";
 import Section from "../components/Section";
 import Card from "../components/Card";
-import { Helmet } from "react-helmet";
+import Helmet from "react-helmet";
+import Button from "../components/Button";
 
 export default function Home() {
   const homeSchema = {
@@ -43,7 +44,7 @@ export default function Home() {
           name="keywords"
           content="Kent car detailing, mobile detailing, paint correction, ceramic coating, car photography"
         />
-        <link rel="canonical" href="https://autoaftercare.github.io/"/>
+        <link rel="canonical" href="https://autoaftercare.github.io/" />
 
         <script type="application/ld+json">
           {JSON.stringify(homeSchema)}
@@ -71,6 +72,14 @@ export default function Home() {
       <Section bgColor="bg-zinc-800">
         <script src="https://static.elfsight.com/platform/platform.js" async></script>
         <div className="elfsight-app-12c95781-bd68-4f07-80c2-6bb6b3ac10c2" data-elfsight-app-lazy></div>
+      </Section>
+
+      <Section bgColor="bg-zinc-800">
+        <div className="flex justify-center text-zinc-100 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
+          <div className="grid grid-cols-1">
+            <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>READY TO BOOK?</Button>
+          </div>
+        </div>
       </Section>
     </div>
   );

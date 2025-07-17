@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Section from "../components/Section";
-import { Helmet } from "react-helmet";
+import Helmet from "react-helmet";
+import Button from "../components/Button";
 
 export default function DetailPackages() {
   const detailPackagesSchema = {
@@ -28,7 +29,7 @@ export default function DetailPackages() {
       "https://www.tiktok.com/@autoaftercare"
     ]
   };
-  
+
   return (
     <div>
       <Helmet>
@@ -41,7 +42,7 @@ export default function DetailPackages() {
           name="keywords"
           content="Kent car detailing packages, mobile detailing, auto detailing, full detail service"
         />
-        <link rel="canonical" href="https://autoaftercare.github.io/detail-packages"/>
+        <link rel="canonical" href="https://autoaftercare.github.io/detail-packages" />
         <script type="application/ld+json">
           {JSON.stringify(detailPackagesSchema)}
         </script>
@@ -57,7 +58,7 @@ export default function DetailPackages() {
       <Section bgColor="bg-white">
         <div className="text-zinc-800 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src="/image/exterior-detail.jpg" alt="Exterior Detail Hyundai Veloster N" className="w-full h-full object-cover rounded-none shadow-lg"/>
+            <img src="/image/exterior-detail.jpg" alt="Exterior Detail Hyundai Veloster N" className="w-full h-full object-cover rounded-none shadow-lg" />
 
             <div className="flex flex-col justify-center space-y-2">
               <h2 className="text-2xl md:text-3xl font-extrabold italic">EXTERIOR DETAIL</h2>
@@ -80,7 +81,7 @@ export default function DetailPackages() {
       <Section bgColor="bg-zinc-800">
         <div className="text-zinc-100 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src="/image/interior-detail.jpg" alt="Interior Detail Ford Mustang" className="w-full h-full object-cover rounded-none shadow-lg"/>
+            <img src="/image/interior-detail.jpg" alt="Interior Detail Ford Mustang" className="w-full h-full object-cover rounded-none shadow-lg" />
 
             <div className="flex flex-col justify-center space-y-2">
               <h2 className="text-2xl md:text-3xl font-extrabold italic">INTERIOR DETAIL</h2>
@@ -102,7 +103,7 @@ export default function DetailPackages() {
       <Section bgColor="bg-white">
         <div className="text-zinc-800 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src="/image/full-detail-exterior.jpg" alt="Full Detail Tesla Model Y" className="w-full h-full object-cover rounded-none shadow-lg"/>
+            <img src="/image/full-detail-exterior.jpg" alt="Full Detail Tesla Model Y" className="w-full h-full object-cover rounded-none shadow-lg" />
 
             <div className="flex flex-col justify-center space-y-2">
               <h2 className="text-2xl md:text-3xl font-extrabold italic">STEP 1 DETAIL</h2>
@@ -130,7 +131,7 @@ export default function DetailPackages() {
       <Section bgColor="bg-zinc-800">
         <div className="text-zinc-100 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src="/image/maintenance-detail-badge.jpg" alt="Maintenance Detail Porsche Macan" className="w-full h-full object-cover rounded-none shadow-lg"/>
+            <img src="/image/maintenance-detail-badge.jpg" alt="Maintenance Detail Porsche Macan" className="w-full h-full object-cover rounded-none shadow-lg" />
 
             <div className="flex flex-col justify-center space-y-2">
               <h2 className="text-2xl md:text-3xl font-extrabold italic">MAINTENANCE DETAIL</h2>
@@ -149,10 +150,10 @@ export default function DetailPackages() {
         </div>
       </Section>
 
-      <Section bgColor="bg-white">
-        <div className="flex justify-center text-zinc-800 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
+      <Section bgColor="bg-zinc-800">
+        <div className="flex justify-center text-zinc-100 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
           <div className="grid grid-cols-1">
-            <h3 className="text-2xl md:text-3xl font-extrabold italic">READY TO BOOK? <a className="inherit" href="#">CLICK HERE!</a></h3>
+            <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>READY TO BOOK?</Button>
           </div>
         </div>
       </Section>

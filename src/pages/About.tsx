@@ -1,6 +1,7 @@
 import Hero from "../components/Hero";
 import Section from "../components/Section";
-import { Helmet } from "react-helmet"
+import Helmet from "react-helmet"
+import Button from "../components/Button";
 
 export default function About() {
   const aboutSchema = {
@@ -40,7 +41,7 @@ export default function About() {
           name="keywords"
           content="auto after care, car detailing in kent, auto detailing, car cleaning services, ceramic coat"
         />
-        <link rel="canonical" href="https://autoaftercare.github.io/about"/>
+        <link rel="canonical" href="https://autoaftercare.github.io/about" />
         <script type="application/ld+json">
           {JSON.stringify(aboutSchema)}
         </script>
@@ -147,6 +148,14 @@ export default function About() {
               You can check out my portfolio of previous work on <a href="https://www.instagram.com/autoaftercare" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Instagram</a> and <a href="https://www.tiktok.com/@autoaftercare" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Tiktok</a>. I regularly post so you can see the level
               of quality and attention to detail I provide! Also, check out my <a href="https://g.co/kgs/NQZvpL7" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Google page</a> for reviews from satisfied clients.
             </p>
+          </div>
+        </div>
+      </Section>
+
+      <Section bgColor="bg-zinc-800">
+        <div className="flex justify-center text-zinc-100 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
+          <div className="grid grid-cols-1">
+            <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>READY TO BOOK?</Button>
           </div>
         </div>
       </Section>
