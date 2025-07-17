@@ -6,7 +6,7 @@ export default function TermsAndConidtions() {
         <div>
             <Hero
                 bg="/background/terms-and-conditions-bg.jpg"
-                subheading="Learn how we collect, use, and protect your information."
+                subheading="Everything you need to know before using our website or services."
                 heading=""
                 highlight="TERMS AND CONDITIONS"
             />
@@ -15,7 +15,7 @@ export default function TermsAndConidtions() {
                 <div className="text-zinc-800 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-24 py-12 space-y-3 leading-relaxed">
                     <h1 className="text-3xl font-bold mb-4">Terms and Conditions</h1>
                     <p>
-                        Last updated: July 3rd, 2025
+                        Last updated: July 17rd, 2025
                     </p>
 
                     <p>
