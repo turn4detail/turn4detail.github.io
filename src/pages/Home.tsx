@@ -52,7 +52,7 @@ export default function Home() {
       </Helmet>
 
       <Hero
-        bg="/background/home-bg.jpg"
+        bg="/background/home-bg-1.jpg"
         subheading="MOBILE & STUDIO SERVICES - WE COME TO YOU OR YOU COME TO US"
         heading="PREMIUM AUTO DETAILING BASED IN "
         highlight="KENT"
