@@ -131,7 +131,7 @@ export default function DetailPackages() {
       <Section bgColor="bg-zinc-800">
         <div className="text-zinc-100 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src="/image/maintenance-detail-badge.jpg" alt="Maintenance Detail Porsche Macan" className="w-full h-full object-cover rounded-none shadow-lg" />
+            <img src="/image/maintenance-detail-badge.jpg" alt="Maintenance Detail Porsche Macan" className="w-full h-full object-cover rounded-md shadow-lg" />
 
             <div className="flex flex-col justify-center space-y-2">
               <h2 className="text-2xl md:text-3xl font-extrabold italic">MAINTENANCE DETAIL</h2>
