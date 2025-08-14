@@ -72,7 +72,7 @@ export default function DetailPackages() {
                 <li>Ceramic paint sealant (lasts up to 6 months)</li>
                 <li>No-sling tire dressing</li>
               </ul>
-              <p className="font-bold text-lg">Starting at $70</p>
+              <p className="font-bold text-lg">Starting at $150</p>
             </div>
           </div>
         </div>
@@ -94,7 +94,7 @@ export default function DetailPackages() {
                 <li>Steam cleaning</li>
                 <li>UV protection & leather/floormat conditioning</li>
               </ul>
-              <p className="font-bold text-lg">Starting at $125</p>
+              <p className="font-bold text-lg">Starting at $150</p>
             </div>
           </div>
         </div>
@@ -122,7 +122,7 @@ export default function DetailPackages() {
                 <li>UV protection & leather/floormat conditioning</li>
                 <li className="font-bold">Maintenance plan eligible*</li>
               </ul>
-              <p className="font-bold text-lg">Starting at $200</p>
+              <p className="font-bold text-lg">Starting at $225</p>
             </div>
           </div>
         </div>
@@ -144,7 +144,7 @@ export default function DetailPackages() {
                 <li className="font-bold">Step 3 Detail*</li>
                 <li className="font-bold">Step 4 Detail*</li>
               </ul>
-              <p className="font-bold text-lg">Starting at $100</p>
+              <p className="font-bold text-lg">Starting at $115</p>
             </div>
           </div>
         </div>
