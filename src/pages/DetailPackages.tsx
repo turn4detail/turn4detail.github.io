@@ -58,7 +58,7 @@ export default function DetailPackages() {
       <Section bgColor="bg-white">
         <div className="text-zinc-800 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src="/image/exterior-detail.jpg" alt="Exterior Detail Hyundai Veloster N" className="w-full h-full object-cover rounded-none shadow-lg" />
+            <img src="/image/exterior-detail.jpg" alt="Exterior Detail Hyundai Veloster N" className="w-full h-full object-cover rounded-md shadow-lg" />
 
             <div className="flex flex-col justify-center space-y-2">
               <h2 className="text-2xl md:text-3xl font-extrabold italic">EXTERIOR DETAIL</h2>
@@ -72,7 +72,7 @@ export default function DetailPackages() {
                 <li>Ceramic paint sealant (lasts up to 6 months)</li>
                 <li>No-sling tire dressing</li>
               </ul>
-              <p className="font-bold text-lg">Starting at $150</p>
+              <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>Starting at $150</Button>
             </div>
           </div>
         </div>
@@ -81,7 +81,7 @@ export default function DetailPackages() {
       <Section bgColor="bg-zinc-800">
         <div className="text-zinc-100 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src="/image/interior-detail.jpg" alt="Interior Detail Ford Mustang" className="w-full h-full object-cover rounded-none shadow-lg" />
+            <img src="/image/interior-detail.jpg" alt="Interior Detail Ford Mustang" className="w-full h-full object-cover rounded-md shadow-lg" />
 
             <div className="flex flex-col justify-center space-y-2">
               <h2 className="text-2xl md:text-3xl font-extrabold italic">INTERIOR DETAIL</h2>
@@ -94,7 +94,7 @@ export default function DetailPackages() {
                 <li>Steam cleaning</li>
                 <li>UV protection & leather/floormat conditioning</li>
               </ul>
-              <p className="font-bold text-lg">Starting at $150</p>
+              <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>Starting at $150</Button>
             </div>
           </div>
         </div>
@@ -103,7 +103,7 @@ export default function DetailPackages() {
       <Section bgColor="bg-white">
         <div className="text-zinc-800 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src="/image/full-detail-exterior.jpg" alt="Full Detail Tesla Model Y" className="w-full h-full object-cover rounded-none shadow-lg" />
+            <img src="/image/full-detail-exterior.jpg" alt="Full Detail Tesla Model Y" className="w-full h-full object-cover rounded-md shadow-lg" />
 
             <div className="flex flex-col justify-center space-y-2">
               <h2 className="text-2xl md:text-3xl font-extrabold italic">STEP 1 DETAIL</h2>
@@ -122,7 +122,7 @@ export default function DetailPackages() {
                 <li>UV protection & leather/floormat conditioning</li>
                 <li className="font-bold">Maintenance plan eligible*</li>
               </ul>
-              <p className="font-bold text-lg">Starting at $225</p>
+              <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>Starting at $225</Button>
             </div>
           </div>
         </div>
@@ -144,16 +144,8 @@ export default function DetailPackages() {
                 <li className="font-bold">Step 3 Detail*</li>
                 <li className="font-bold">Step 4 Detail*</li>
               </ul>
-              <p className="font-bold text-lg">Starting at $115</p>
+              <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>Starting at $115</Button>
             </div>
-          </div>
-        </div>
-      </Section>
-
-      <Section bgColor="bg-zinc-800">
-        <div className="flex justify-center text-zinc-100 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
-          <div className="grid grid-cols-1">
-            <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>READY TO BOOK?</Button>
           </div>
         </div>
       </Section>

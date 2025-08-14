@@ -58,7 +58,7 @@ export default function CeramicCoating() {
       <Section bgColor="bg-white">
         <div className="text-zinc-800 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <img src="/image/ceramic-coating.jpg" alt="Ceramic Coating Toyota GR86" className="w-full h-full object-cover rounded-none shadow-lg"/>
+            <img src="/image/ceramic-coating.jpg" alt="Ceramic Coating Toyota GR86" className="w-full h-full object-cover rounded-md shadow-lg"/>
 
             <div className="flex flex-col justify-center space-y-2">
               <h2 className="text-2xl md:text-3xl font-extrabold italic">STEP 4 DETAIL</h2>
@@ -79,21 +79,11 @@ export default function CeramicCoating() {
                 <li>UV protection & leather/floormat conditioning</li>
                 <li>Maintenance plan eligible</li>
               </ul>
-              <p className="font-bold text-lg">Starting at $1000</p>
+              <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>Starting at $1,000</Button>
             </div>
           </div>
         </div>
       </Section>
-
-      <Section bgColor="bg-zinc-800">
-        <div className="flex justify-center text-zinc-100 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
-          <div className="grid grid-cols-1">
-            <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>READY TO BOOK?</Button>
-          </div>
-        </div>
-      </Section>
     </div>
-
-
   );
 }
