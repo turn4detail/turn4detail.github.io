@@ -8,8 +8,8 @@ export default function DetailPackages() {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
     "name": "Auto After Care",
-    "url": "https://autoaftercare.github.io/detail-packages",
-    "logo": "https://autoaftercare.github.io/logo.png",
+    "url": "https://autoaftercare.com/detail-packages",
+    "logo": "https://autoaftercare.com/logo.png",
     "description": "Explore our premium detailing packages at Auto After Care. Keep your vehicle looking its best with mobile and studio car detailing in Kent and nearby areas.",
     "address": {
       "@type": "PostalAddress",
@@ -33,7 +33,7 @@ export default function DetailPackages() {
   return (
     <div>
       <Helmet>
-        <title>Convenient Detail Packages in Kent by Auto After Care</title>
+        <title>Detailing Services | Auto After Care</title>
         <meta
           name="description"
           content="Explore our premium detailing packages to keep your vehicle looking its best. Mobile & studio car detailing services in Kent and surrounding areas."
@@ -42,7 +42,7 @@ export default function DetailPackages() {
           name="keywords"
           content="Kent car detailing packages, mobile detailing, auto detailing, full detail service"
         />
-        <link rel="canonical" href="https://autoaftercare.github.io/detail-packages" />
+        <link rel="canonical" href="https://autoaftercare.com/detail-packages" />
         <script type="application/ld+json">
           {JSON.stringify(detailPackagesSchema)}
         </script>

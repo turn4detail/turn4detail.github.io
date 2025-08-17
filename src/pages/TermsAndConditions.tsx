@@ -1,9 +1,14 @@
+import Helmet from "react-helmet";
 import Hero from "../components/Hero";
 import Section from "../components/Section";
 
 export default function TermsAndConidtions() {
     return (
         <div>
+            <Helmet>
+                <title>Terms & Conditions | Auto After Care</title>
+            </Helmet>
+
             <Hero
                 bg="/background/terms-and-conditions-bg.jpg"
                 subheading="Everything you need to know before using our website or services."

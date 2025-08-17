@@ -1,9 +1,14 @@
+import Helmet from "react-helmet";
 import Hero from "../components/Hero";
 import Section from "../components/Section";
 
 export default function PrivacyPolicy() {
     return (
         <div>
+            <Helmet>
+                <title>Privacy Policy | Auto After Care</title>
+            </Helmet>
+
             <Hero
                 bg="/background/privacy-policy-bg.jpg"
                 subheading="Learn how we collect, use, and protect your information."

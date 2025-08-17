@@ -8,8 +8,8 @@ export default function About() {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
     "name": "Auto After Care",
-    "url": "https://autoaftercare.github.io/about",
-    "logo": "https://autoaftercare.github.io/logo.png",
+    "url": "https://autoaftercare.com/about",
+    "logo": "https://autoaftercare.com/logo.png",
     "description": "Learn more about Auto After Care — your trusted local provider of premium car detailing, paint correction, ceramic coating, and car photography services in Kent and surrounding areas.",
     "address": {
       "@type": "PostalAddress",
@@ -41,7 +41,7 @@ export default function About() {
           name="keywords"
           content="auto after care, car detailing in kent, auto detailing, car cleaning services, ceramic coat"
         />
-        <link rel="canonical" href="https://autoaftercare.github.io/about" />
+        <link rel="canonical" href="https://autoaftercare.com/about" />
         <script type="application/ld+json">
           {JSON.stringify(aboutSchema)}
         </script>
@@ -159,6 +159,7 @@ export default function About() {
           </div>
         </div>
       </Section>
+      {/* <img src="/image/systemx-accredited-black-cropped.svg" alt="System X Ceramic Protection logo" className="w-full h-full object-cover"/> */}
     </div>
   );
 }

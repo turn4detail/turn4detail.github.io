@@ -8,7 +8,7 @@ export default function PaintCorrection() {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
     "name": "Auto After Care",
-    "url": "https://autoaftercare.github.io/paint-correction",
+    "url": "https://autoaftercare.com/paint-correction",
     "description": "Professional paint correction services in Kent. Remove swirl marks and scratches, restore your car’s shine.",
     "address": {
       "@type": "PostalAddress",
@@ -32,7 +32,7 @@ export default function PaintCorrection() {
   return (
     <div>
       <Helmet>
-        <title>Auto Paint Correction Services in Kent by Auto After Care</title>
+        <title>Paint Correction | Auto After Care</title>
         <meta
           name="description"
           content="Restore your car’s shine with professional paint correction services by Auto After Care. Remove swirl marks, scratches, and imperfections in Kent and surrounding areas."
@@ -41,7 +41,7 @@ export default function PaintCorrection() {
           name="keywords"
           content="Kent paint correction, car paint correction, swirl mark removal, auto detailing"
         />
-        <link rel="canonical" href="https://autoaftercare.github.io/paint-correction" />
+        <link rel="canonical" href="https://autoaftercare.com/paint-correction" />
 
         <script type="application/ld+json">
           {JSON.stringify(paintCorrectionSchema)}
