@@ -2,7 +2,7 @@ import Helmet from "react-helmet";
 import Hero from "../components/Hero";
 import Section from "../components/Section";
 
-export default function TermsAndConidtions() {
+export default function TermsAndConditions() {
     return (
         <div>
             <Helmet>
