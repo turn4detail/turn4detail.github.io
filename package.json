@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist",
-    "generate:sitemap": "sitemap-generator https://autoaftercare.github.io/ --output ./public/sitemap.xml"
+    "generate:sitemap": "sitemap-generator https://autoaftercare.com/ --output ./public/sitemap.xml"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
