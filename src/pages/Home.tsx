@@ -8,11 +8,11 @@ export default function Home() {
   const homeSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    "name": "Auto After Care",
+    "name": "Archiv Auto",
     "url": "https://autoaftercare.com/",
     "logo": "https://autoaftercare.com/logo.png",
     "image": "https://autoaftercare.com/og-preview.jpg",
-    "description": "Auto After Care offers premium mobile & studio car detailing, paint correction, ceramic coating, and cinematic car photography in Kent and surrounding areas.",
+    "description": "Archiv Auto offers premium mobile & studio car detailing, paint correction, ceramic coating, and cinematic car photography in Kent and surrounding areas.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Kent",
@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <title>Mobile & Studio Detailing Service | Auto After Care</title>
+        <title>Mobile & Studio Detailing Service | Archiv Auto</title>
         <meta
           name="description"
           content="Mobile & studio car detailing services in Kent, WA. We offer detailing packages, paint correction, ceramic coating, and car photography services."

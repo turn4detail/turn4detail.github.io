@@ -6,7 +6,7 @@ export default function TermsAndConditions() {
     return (
         <div>
             <Helmet>
-                <title>Terms & Conditions | Auto After Care</title>
+                <title>Terms & Conditions | Archiv Auto</title>
             </Helmet>
 
             <Hero
@@ -20,11 +20,11 @@ export default function TermsAndConditions() {
                 <div className="text-zinc-800 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-24 py-12 space-y-3 leading-relaxed">
                     <h1 className="text-3xl font-bold mb-4">Terms and Conditions</h1>
                     <p>
-                        Last updated: July 17rd, 2025
+                        Last updated: September 17th, 2025
                     </p>
 
                     <p>
-                        These Terms and Conditions (“Terms”) govern your use of Auto After Care, LLC’s auto detailing services, whether provided at our studio or via mobile service. By booking or using our services, you agree to these Terms.
+                        These Terms and Conditions (“Terms”) govern your use of ARCHIV AUTO LLC’s auto detailing services, whether provided at our studio or via mobile service. By booking or using our services, you agree to these Terms.
                     </p>
 
                     <h2 className="text-xl font-semibold mt-6 mb-2">Services Provided</h2>
@@ -51,7 +51,7 @@ export default function TermsAndConditions() {
 
                     <h2 className="text-xl font-semibold mt-6 mb-2">Liability</h2>
                     <p>
-                        We take the utmost care when handling your vehicle. However, Auto After Care, LLC is not responsible for pre-existing damage, wear and tear, or damage caused by hidden defects. You acknowledge that certain services, such as paint correction, involve inherent risks.
+                        We take the utmost care when handling your vehicle. However, Archiv Auto, LLC is not responsible for pre-existing damage, wear and tear, or damage caused by hidden defects. You acknowledge that certain services, such as paint correction, involve inherent risks.
                     </p>
 
                     <h2 className="text-xl font-semibold mt-6 mb-2">Customer Responsibilities</h2>

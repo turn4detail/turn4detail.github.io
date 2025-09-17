@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
     return (
         <div>
             <Helmet>
-                <title>Privacy Policy | Auto After Care</title>
+                <title>Privacy Policy | Archiv Auto</title>
             </Helmet>
 
             <Hero
@@ -20,11 +20,11 @@ export default function PrivacyPolicy() {
                 <div className="text-zinc-800 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-24 py-12 space-y-3 leading-relaxed">
                     <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
                     <p>
-                        Last updated: July 3rd, 2025
+                        Last updated: September 17th, 2025
                     </p>
 
                     <p>
-                        Auto After Care, LLC (“we”, “us”, or “our”) values your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website or our auto detailing services (both mobile and studio).
+                        ARCHIV AUTO LLC (“we”, “us”, or “our”) values your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website or our auto detailing services (both mobile and studio).
                     </p>
 
                     <h2 className="text-xl font-semibold mb-2">Information We Collect</h2>

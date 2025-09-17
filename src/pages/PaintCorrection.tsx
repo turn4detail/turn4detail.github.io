@@ -7,7 +7,7 @@ export default function PaintCorrection() {
   const paintCorrectionSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    "name": "Auto After Care",
+    "name": "Archiv Auto",
     "url": "https://autoaftercare.com/paint-correction",
     "description": "Professional paint correction services in Kent. Remove swirl marks and scratches, restore your car’s shine.",
     "address": {
@@ -32,10 +32,10 @@ export default function PaintCorrection() {
   return (
     <div>
       <Helmet>
-        <title>Paint Correction | Auto After Care</title>
+        <title>Paint Correction | Archiv Auto</title>
         <meta
           name="description"
-          content="Restore your car’s shine with professional paint correction services by Auto After Care. Remove swirl marks, scratches, and imperfections in Kent and surrounding areas."
+          content="Restore your car’s shine with professional paint correction services by Archiv Auto. Remove swirl marks, scratches, and imperfections in Kent and surrounding areas."
         />
         <meta
           name="keywords"

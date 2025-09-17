@@ -16,17 +16,17 @@ export default function Footer() {
             <Link to="/">
               <img
                 src="/logo.png"
-                alt="Auto After Care logo"
+                alt="Archiv Auto logo"
                 className="h-20 w-auto mx-auto mb-4"
               />
             </Link>
 
             <p>
-              Established in 2025, Auto After Care is dedicated to providing
+              Established in 2025, Archiv Auto is dedicated to providing
               professional and friendly auto detailing services. We provide expert
               care with premium detailing packages designed to protect your vehicle,
               tailored to your needs. As a small, single-owner business, we’re here to
-              serve you with dedication and passion. Contact Auto After Care today to
+              serve you with dedication and passion. Contact Archiv Auto today to
               schedule your appointment and give your car the spa day it deserves.
             </p>
           </Column>
@@ -108,7 +108,7 @@ export default function Footer() {
               <p className="flex items-center gap-2 mt-2">
                 <FaEnvelope className="w-6 h-6 text-blue-500" />
                 <a href="mailto:autoaftercare@gmail.com" className="text-blue-500 hover:underline hover:text-white transition">
-                  autoaftercare@gmail.com
+                  archivautowerks@gmail.com
                 </a>
               </p>
             </FooterBlock>
@@ -128,7 +128,7 @@ export default function Footer() {
 
       {/* Row 2 */}
       <div className="w-full max-w-7xl mx-auto px-4 py-4 mt-4 flex flex-col md:flex-row justify-between items-center text-zinc-400 text-sm">
-        <p>© {new Date().getFullYear()} Auto After Care. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Archiv Auto. All rights reserved.</p>
         
         <div className="flex gap-4 mt-2 md:mt-0">
           <Link to="/terms-and-conditions" className="hover:underline hover:text-white transition">

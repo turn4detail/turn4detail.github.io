@@ -7,10 +7,10 @@ export default function CeramicCoating() {
   const ceramicCoatingSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    "name": "Auto After Care",
+    "name": "Archiv Auto",
     "url": "https://autoaftercare.com/ceramic-coating",
     "logo": "https://autoaftercare.com/logo.png",
-    "description": "Protect your vehicle with premium ceramic coating services by Auto After Care. Enhance gloss, durability, and paint protection for cars in Kent and nearby areas.",
+    "description": "Protect your vehicle with premium ceramic coating services by Archiv Auto. Enhance gloss, durability, and paint protection for cars in Kent and nearby areas.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Kent",
@@ -33,14 +33,14 @@ export default function CeramicCoating() {
   return (
     <div>
       <Helmet>
-        <title>Certified Ceramic Coatings | Auto After Care</title>
+        <title>Certified Ceramic Coatings | Archiv Auto</title>
         <meta
           name="description"
-          content="Auto After Care is a System X® Certified Installer in Kent, WA. Explore benefits, packages, and FAQs about ceramic coatings for long-lasting gloss and protection."
+          content="Archiv Auto is a System X® Certified Installer in Kent, WA. Explore benefits, packages, and FAQs about ceramic coatings for long-lasting gloss and protection."
         />
         <meta
           name="keywords"
-          content="Kent ceramic coating, car ceramic coating, paint protection, Auto After Care"
+          content="Kent ceramic coating, car ceramic coating, paint protection, Archiv Auto"
         />
         <link rel="canonical" href="https://autoaftercare.com/ceramic-coating" />
         <script type="application/ld+json">
@@ -158,7 +158,7 @@ export default function CeramicCoating() {
                 <svg className="h-5 w-5 text-sky-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
                 <h3 className="text-lg font-semibold">Certified Application</h3>
               </div>
-              <p className="text-gray-600">Installed to spec by Auto After Care’s System X® Certified team for optimal results.</p>
+              <p className="text-gray-600">Installed to spec by Archiv Auto’s System X® Certified team for optimal results.</p>
             </div>
           </div>
         </div>

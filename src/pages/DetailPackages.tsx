@@ -7,10 +7,10 @@ export default function DetailPackages() {
   const detailPackagesSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    "name": "Auto After Care",
+    "name": "Archiv Auto",
     "url": "https://autoaftercare.com/detail-packages",
     "logo": "https://autoaftercare.com/logo.png",
-    "description": "Explore our premium detailing packages at Auto After Care. Keep your vehicle looking its best with mobile and studio car detailing in Kent and nearby areas.",
+    "description": "Explore our premium detailing packages at Archiv Auto. Keep your vehicle looking its best with mobile and studio car detailing in Kent and nearby areas.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Kent",
@@ -33,7 +33,7 @@ export default function DetailPackages() {
   return (
     <div>
       <Helmet>
-        <title>Detailing Services | Auto After Care</title>
+        <title>Detailing Services | Archiv Auto</title>
         <meta
           name="description"
           content="Explore our premium detailing packages to keep your vehicle looking its best. Mobile & studio car detailing services in Kent and surrounding areas."

@@ -7,10 +7,10 @@ export default function About() {
   const aboutSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    "name": "Auto After Care",
+    "name": "Archiv Auto",
     "url": "https://autoaftercare.com/about",
     "logo": "https://autoaftercare.com/logo.png",
-    "description": "Learn more about Auto After Care — your trusted local provider of premium car detailing, paint correction, ceramic coating, and car photography services in Kent and surrounding areas.",
+    "description": "Learn more about Archiv Auto — your trusted local provider of premium car detailing, paint correction, ceramic coating, and car photography services in Kent and surrounding areas.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Kent",
@@ -32,14 +32,14 @@ export default function About() {
   return (
     <div>
       <Helmet>
-        <title>Learn About Auto After Care</title>
+        <title>Learn About Archiv Auto</title>
         <meta
           name="description"
-          content="Learn about Auto After Care—your trusted team for premium auto detailing, paint correction, ceramic coating, and car photography in Kent and surrounding areas."
+          content="Learn about Archiv Auto—your trusted team for premium auto detailing, paint correction, ceramic coating, and car photography in Kent and surrounding areas."
         />
         <meta
           name="keywords"
-          content="auto after care, car detailing in kent, auto detailing, car cleaning services, ceramic coat"
+          content="Archiv Auto, car detailing in kent, auto detailing, car cleaning services, ceramic coat"
         />
         <link rel="canonical" href="https://autoaftercare.com/about" />
         <script type="application/ld+json">
@@ -57,10 +57,10 @@ export default function About() {
       <Section bgColor="bg-white">
         <div className="text-zinc-800 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-24 py-12 space-y-6 leading-relaxed">
           <p>
-            Hi there! I’m Steven, the owner here at <span className="font-semibold">Auto After Care</span>. Based in Kent, Washington,
+            Hi there! I’m Steven, the owner here at <span className="font-semibold">Archiv Auto</span>. Based in Kent, Washington,
             I proudly serve the surrounding areas with top-quality auto detailing services.
             What began as a hobby detailing my first car has since evolved into a true passion—one that eventually
-            led to the creation of Auto After Care.
+            led to the creation of Archiv Auto.
           </p>
 
           <p>
@@ -81,7 +81,7 @@ export default function About() {
           </p>
 
           <p>
-            Thank you for choosing <span className="font-semibold">Auto After Care</span>—I look forward to making your car shine!
+            Thank you for choosing <span className="font-semibold">Archiv Auto</span>—I look forward to making your car shine!
           </p>
         </div>
       </Section>
