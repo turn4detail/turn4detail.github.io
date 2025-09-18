@@ -71,7 +71,7 @@ export default function TermsAndConditions() {
 
                     <h2 className="text-xl font-semibold mt-6 mb-2">Contact Us</h2>
                     <p>
-                        If you have any questions about these Terms, please contact us at <span className="font-semibold">autoaftercare@gmail.com</span> or <span className="font-semibold">(425) 306-2183</span>.
+                        If you have any questions about these Terms, please contact us at <span className="font-semibold">contact@archivauto.com</span> or <span className="font-semibold">(425) 306-2183</span>.
                     </p>
                 </div>
             </Section>
