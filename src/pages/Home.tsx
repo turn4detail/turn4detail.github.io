@@ -9,9 +9,9 @@ export default function Home() {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
     "name": "Archiv Auto",
-    "url": "https://autoaftercare.com/",
-    "logo": "https://autoaftercare.com/logo.png",
-    "image": "https://autoaftercare.com/og-preview.jpg",
+    "url": "https://www.archivauto.com/",
+    "logo": "https://www.archivauto.com/logo.png",
+    "image": "https://www.archivauto.com/og-preview.jpg",
     "description": "Archiv Auto offers premium mobile & studio car detailing, paint correction, ceramic coating, and cinematic car photography in Kent and surrounding areas.",
     "address": {
       "@type": "PostalAddress",
@@ -27,8 +27,8 @@ export default function Home() {
     },
     "openingHours": "Mo-Fr 09:00-18:00",
     "sameAs": [
-      "https://www.instagram.com/autoaftercare",
-      "https://www.tiktok.com/@autoaftercare"
+      "https://www.instagram.com/archiv.auto",
+      "https://www.tiktok.com/@archiv.auto"
     ]
   };
 
@@ -64,8 +64,8 @@ export default function Home() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* ffmpeg -i ceramic-coating-1.mp4 -vf "scale=720:720,fps=24,format=yuv420p" -c:v libx264 -profile:v baseline -level 3.0 -pix_fmt yuv420p -preset medium -b:v 1200k -movflags +faststart -c:a aac -b:a 96k ceramic-coating-ffmpeg-1.mp4 */}
           <Card title="Detailing Packages" video="/video/full-detail-ffmpeg-1.mp4" poster="/poster/full-detail-poster.jpg" to="/detail-packages" />
-          <Card title="Paint Correction" video="/video/paint-correction-ffmpeg-1.mp4" poster="/poster/paint-correction-poster.jpg" to="/paint-correction" />
-          <Card title="Ceramic Coating" video="/video/ceramic-coating-ffmpeg-1.mp4" poster="/poster/ceramic-coating-poster.jpg" to="/ceramic-coating" />
+          <Card title="Paint Correction" video="/video/paint-correction-ffmpeg-3.mp4" poster="/poster/paint-correction-poster.jpg" to="/paint-correction" />
+          <Card title="Ceramic Coating" video="/video/ceramic-coating-ffmpeg-2.mp4" poster="/poster/ceramic-coating-poster.jpg" to="/ceramic-coating" />
         </div>
       </Section>
 

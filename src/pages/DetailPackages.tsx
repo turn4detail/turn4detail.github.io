@@ -8,8 +8,8 @@ export default function DetailPackages() {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
     "name": "Archiv Auto",
-    "url": "https://autoaftercare.com/detail-packages",
-    "logo": "https://autoaftercare.com/logo.png",
+    "url": "https://www.archivauto.com/detail-packages",
+    "logo": "https://www.archivauto.com/logo.png",
     "description": "Explore our premium detailing packages at Archiv Auto. Keep your vehicle looking its best with mobile and studio car detailing in Kent and nearby areas.",
     "address": {
       "@type": "PostalAddress",
@@ -25,8 +25,8 @@ export default function DetailPackages() {
       "name": "Kent"
     },
     "sameAs": [
-      "https://www.instagram.com/autoaftercare",
-      "https://www.tiktok.com/@autoaftercare"
+      "https://www.instagram.com/archiv.auto",
+      "https://www.tiktok.com/@archiv.auto"
     ]
   };
 

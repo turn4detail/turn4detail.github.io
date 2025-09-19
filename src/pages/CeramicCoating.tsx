@@ -8,8 +8,8 @@ export default function CeramicCoating() {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
     "name": "Archiv Auto",
-    "url": "https://autoaftercare.com/ceramic-coating",
-    "logo": "https://autoaftercare.com/logo.png",
+    "url": "https://www.archivauto.com/ceramic-coating",
+    "logo": "https://www.archivauto.com/logo.png",
     "description": "Protect your vehicle with premium ceramic coating services by Archiv Auto. Enhance gloss, durability, and paint protection for cars in Kent and nearby areas.",
     "address": {
       "@type": "PostalAddress",
@@ -25,8 +25,8 @@ export default function CeramicCoating() {
       "name": "Kent"
     },
     "sameAs": [
-      "https://www.instagram.com/autoaftercare",
-      "https://www.tiktok.com/@autoaftercare"
+      "https://www.instagram.com/archiv.auto",
+      "https://www.tiktok.com/@archiv.auto"
     ]
   };
 

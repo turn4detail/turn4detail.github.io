@@ -17,7 +17,7 @@ export default function Footer() {
               <img
                 src="/logo.png"
                 alt="Archiv Auto logo"
-                className="h-20 w-auto mx-auto mb-4"
+                className="h-30 w-auto mx-auto"
               />
             </Link>
 
@@ -68,7 +68,7 @@ export default function Footer() {
             <FooterBlock title="FOLLOW US">
               <div className="flex gap-4 mt-2">
                 <a
-                  href="https://www.instagram.com/autoaftercare"
+                  href="https://www.instagram.com/archiv.auto"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 text-blue-500 hover:underline hover:text-white transition"
@@ -77,7 +77,7 @@ export default function Footer() {
                 </a>
 
                 <a
-                  href="https://www.youtube.com/@autoaftercare"
+                  href="https://www.youtube.com/@archiv.autowerks"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 text-blue-500 hover:underline hover:text-white transition"
@@ -85,7 +85,7 @@ export default function Footer() {
                   <FaYoutube className="w-8 h-8" />
                 </a>
                 <a
-                  href="https://www.tiktok.com/@autoaftercare"
+                  href="https://www.tiktok.com/@archiv.auto"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 text-blue-500 hover:underline hover:text-white transition"
@@ -107,8 +107,8 @@ export default function Footer() {
               </p>
               <p className="flex items-center gap-2 mt-2">
                 <FaEnvelope className="w-6 h-6 text-blue-500" />
-                <a href="mailto:autoaftercare@gmail.com" className="text-blue-500 hover:underline hover:text-white transition">
-                  archivautowerks@gmail.com
+                <a href="mailto:contact@archivauto.com" className="text-blue-500 hover:underline hover:text-white transition">
+                  contact@archivauto.com
                 </a>
               </p>
             </FooterBlock>
@@ -128,7 +128,7 @@ export default function Footer() {
 
       {/* Row 2 */}
       <div className="w-full max-w-7xl mx-auto px-4 py-4 mt-4 flex flex-col md:flex-row justify-between items-center text-zinc-400 text-sm">
-        <p>© {new Date().getFullYear()} Archiv Auto. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Archiv Auto LLC. All rights reserved.</p>
         
         <div className="flex gap-4 mt-2 md:mt-0">
           <Link to="/terms-and-conditions" className="hover:underline hover:text-white transition">

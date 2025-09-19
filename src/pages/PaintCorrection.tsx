@@ -8,7 +8,7 @@ export default function PaintCorrection() {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
     "name": "Archiv Auto",
-    "url": "https://autoaftercare.com/paint-correction",
+    "url": "https://www.archivauto.com/paint-correction",
     "description": "Professional paint correction services in Kent. Remove swirl marks and scratches, restore your car’s shine.",
     "address": {
       "@type": "PostalAddress",
@@ -24,8 +24,8 @@ export default function PaintCorrection() {
       "name": "Kent"
     },
     "sameAs": [
-      "https://www.instagram.com/autoaftercare",
-      "https://www.tiktok.com/@autoaftercare"
+      "https://www.instagram.com/archiv.auto",
+      "https://www.tiktok.com/@archiv.auto"
     ]
   };
 

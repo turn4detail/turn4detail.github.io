@@ -8,8 +8,8 @@ export default function About() {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
     "name": "Archiv Auto",
-    "url": "https://autoaftercare.com/about",
-    "logo": "https://autoaftercare.com/logo.png",
+    "url": "https://www.archivauto.com/about",
+    "logo": "https://www.archivauto.com/logo.png",
     "description": "Learn more about Archiv Auto — your trusted local provider of premium car detailing, paint correction, ceramic coating, and car photography services in Kent and surrounding areas.",
     "address": {
       "@type": "PostalAddress",
@@ -24,8 +24,8 @@ export default function About() {
       "name": "Kent"
     },
     "sameAs": [
-      "https://www.instagram.com/autoaftercare",
-      "https://www.tiktok.com/@autoaftercare"
+      "https://www.instagram.com/archiv.auto",
+      "https://www.tiktok.com/@archiv.auto"
     ]
   };
 
