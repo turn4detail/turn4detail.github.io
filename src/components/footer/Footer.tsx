@@ -16,17 +16,17 @@ export default function Footer() {
             <Link to="/">
               <img
                 src="/logo.png"
-                alt="Archiv Auto logo"
+                alt="Section 6 Detailing logo"
                 className="h-30 w-auto mx-auto"
               />
             </Link>
 
             <p>
-              Established in 2025, Archiv Auto is dedicated to providing
+              Established in 2025, Section 6 Detailing is dedicated to providing
               professional and friendly auto detailing services. We provide expert
               care with premium detailing packages designed to protect your vehicle,
               tailored to your needs. As a small, single-owner business, we’re here to
-              serve you with dedication and passion. Contact Archiv Auto today to
+              serve you with dedication and passion. Contact Section 6 Detailing today to
               schedule your appointment and give your car the spa day it deserves.
             </p>
           </Column>
@@ -68,7 +68,7 @@ export default function Footer() {
             <FooterBlock title="FOLLOW US">
               <div className="flex gap-4 mt-2">
                 <a
-                  href="https://www.instagram.com/archiv.auto"
+                  href="https://www.instagram.com/section6detailing"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-1 text-blue-500 hover:underline hover:text-white transition"
@@ -107,8 +107,8 @@ export default function Footer() {
               </p>
               <p className="flex items-center gap-2 mt-2">
                 <FaEnvelope className="w-6 h-6 text-blue-500" />
-                <a href="mailto:contact@archivauto.com" className="text-blue-500 hover:underline hover:text-white transition">
-                  contact@archivauto.com
+                <a href="mailto:steven.tran@section6detailing.com" className="text-blue-500 hover:underline hover:text-white transition">
+                  steven.tran@section6detailing.com
                 </a>
               </p>
             </FooterBlock>
@@ -128,7 +128,7 @@ export default function Footer() {
 
       {/* Row 2 */}
       <div className="w-full max-w-7xl mx-auto px-4 py-4 mt-4 flex flex-col md:flex-row justify-between items-center text-zinc-400 text-sm">
-        <p>© {new Date().getFullYear()} Archiv Auto LLC. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Section 6 LLC. All rights reserved.</p>
         
         <div className="flex gap-4 mt-2 md:mt-0">
           <Link to="/terms-and-conditions" className="hover:underline hover:text-white transition">

@@ -14,7 +14,7 @@ export default function Header() {
             <Link to="/">
               <img
                 src="/logo.png"
-                alt="Archiv Auto logo"
+                alt="Section 6 Detailing logo"
                 className="h-16 w-auto"
               />
             </Link>

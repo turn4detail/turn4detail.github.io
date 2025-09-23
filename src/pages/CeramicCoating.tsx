@@ -7,10 +7,10 @@ export default function CeramicCoating() {
   const ceramicCoatingSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    "name": "Archiv Auto",
-    "url": "https://www.archivauto.com/ceramic-coating",
-    "logo": "https://www.archivauto.com/logo.png",
-    "description": "Protect your vehicle with premium ceramic coating services by Archiv Auto. Enhance gloss, durability, and paint protection for cars in Kent and nearby areas.",
+    "name": "Section 6 Detailing",
+    "url": "https://www.section6detailing.com/#/ceramic-coating",
+    "logo": "https://www.section6detailing.com/logo.png",
+    "description": "Protect your vehicle with premium ceramic coating services by Section 6 Detailing. Enhance gloss, durability, and paint protection for cars in Kent and nearby areas.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Kent",
@@ -25,7 +25,7 @@ export default function CeramicCoating() {
       "name": "Kent"
     },
     "sameAs": [
-      "https://www.instagram.com/archiv.auto",
+      "https://www.instagram.com/section6detailing",
       "https://www.tiktok.com/@archiv.auto"
     ]
   };
@@ -33,16 +33,16 @@ export default function CeramicCoating() {
   return (
     <div>
       <Helmet>
-        <title>Certified Ceramic Coatings | Archiv Auto</title>
+        <title>Certified Ceramic Coatings | Section 6 Detailing</title>
         <meta
           name="description"
-          content="Archiv Auto is a System X® Certified Installer in Kent, WA. Explore benefits, packages, and FAQs about ceramic coatings for long-lasting gloss and protection."
+          content="Section 6 Detailing is a System X® Certified Installer in Kent, WA. Explore benefits, packages, and FAQs about ceramic coatings for long-lasting gloss and protection."
         />
         <meta
           name="keywords"
-          content="Kent ceramic coating, car ceramic coating, paint protection, Archiv Auto"
+          content="Kent ceramic coating, car ceramic coating, paint protection, Section 6 Detailing"
         />
-        <link rel="canonical" href="https://autoaftercare.com/ceramic-coating" />
+        <link rel="canonical" href="https://www.section6detailing.com/#/ceramic-coating" />
         <script type="application/ld+json">
           {JSON.stringify(ceramicCoatingSchema)}
         </script>
@@ -158,7 +158,7 @@ export default function CeramicCoating() {
                 <svg className="h-5 w-5 text-sky-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5" /></svg>
                 <h3 className="text-lg font-semibold">Certified Application</h3>
               </div>
-              <p className="text-gray-600">Installed to spec by Archiv Auto’s System X® Certified team for optimal results.</p>
+              <p className="text-gray-600">Installed to spec by Section 6 Detailing’s System X® Certified team for optimal results.</p>
             </div>
           </div>
         </div>

@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
     return (
         <div>
             <Helmet>
-                <title>Privacy Policy | Archiv Auto</title>
+                <title>Privacy Policy | Section 6 Detailing</title>
             </Helmet>
 
             <Hero
@@ -20,11 +20,11 @@ export default function PrivacyPolicy() {
                 <div className="text-zinc-800 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-24 py-12 space-y-3 leading-relaxed">
                     <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
                     <p>
-                        Last updated: September 17th, 2025
+                        Last updated: September 22nd, 2025
                     </p>
 
                     <p>
-                        ARCHIV AUTO LLC (“we”, “us”, or “our”) values your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website or our auto detailing services (both mobile and studio).
+                        SECTION 6 LLC (“we”, “us”, or “our”) values your privacy and is committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information when you use our website or our auto detailing services (both mobile and studio).
                     </p>
 
                     <h2 className="text-xl font-semibold mb-2">Information We Collect</h2>
@@ -75,7 +75,7 @@ export default function PrivacyPolicy() {
 
                     <h2 className="text-xl font-semibold mb-2">Contact Us</h2>
                     <p>
-                        If you have any questions about this Privacy Policy, please contact us at <span className="font-semibold">contact@archivauto.com</span> or <span className="font-semibold">(425) 306-2183</span>.
+                        If you have any questions about this Privacy Policy, please contact us at <span className="font-semibold">steven.tran@section6detailing.com</span> or <span className="font-semibold">(425) 306-2183</span>.
                     </p>
                 </div>
             </Section>

@@ -1,5 +1,5 @@
 {
-  "name": "archivautowerks",
+  "name": "section6detailing",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist",
-    "generate:sitemap": "sitemap-generator https://www.archivauto.com/ --output ./public/sitemap.xml"
+    "generate:sitemap": "sitemap-generator https://www.section6detailing.com/ --output ./public/sitemap.xml"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
