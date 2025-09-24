@@ -22,6 +22,9 @@ export default function Header() {
 
           {/* Navigation */}
           <nav className="flex flex-col items-center md:flex-row md:items-center gap-2 md:gap-6 text-sm">
+            <Link to="/shop" className="text-white hover:underline hover:text-blue-500 transition">
+              Shop
+            </Link>
             <Dropdown
               title="Services"
               variant="overlay"
