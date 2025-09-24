@@ -7,10 +7,10 @@ export default function About() {
   const aboutSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    "name": "Section 6 Detailing",
-    "url": "https://www.section6detailing.com/#/about",
-    "logo": "https://www.section6detailing.com/logo.png",
-    "description": "Learn more about Section 6 Detailing — your trusted local provider of premium car detailing, paint correction, ceramic coating, and car photography services in Kent and surrounding areas.",
+    "name": "Turn 4 Detail",
+    "url": "https://www.turn4detail.com/#/about",
+    "logo": "https://www.turn4detail.com/logo.png",
+    "description": "Learn more about Turn 4 Detail—your trusted local provider of premium car detailing, paint correction, ceramic coating, and car photography services in Kent and surrounding areas.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Kent",
@@ -24,7 +24,7 @@ export default function About() {
       "name": "Kent"
     },
     "sameAs": [
-      "https://www.instagram.com/section6detailing",
+      "https://www.instagram.com/turn4detail",
       "https://www.tiktok.com/@archiv.auto"
     ]
   };
@@ -32,16 +32,16 @@ export default function About() {
   return (
     <div>
       <Helmet>
-        <title>Learn About Section 6 Detailing</title>
+        <title>Learn About Turn 4 Detail</title>
         <meta
           name="description"
-          content="Learn about Section 6 Detailing—your trusted team for premium auto detailing, paint correction, ceramic coating, and car photography in Kent and surrounding areas."
+          content="Learn about Turn 4 Detail—your trusted team for premium auto detailing, paint correction, ceramic coating, and car photography in Kent and surrounding areas."
         />
         <meta
           name="keywords"
-          content="Section 6 Detailing, car detailing in kent, auto detailing, car cleaning services, ceramic coat"
+          content="Turn 4 Detail, car detailing in kent, auto detailing, car cleaning services, ceramic coat"
         />
-        <link rel="canonical" href="https://www.section6detailing.com/#/about" />
+        <link rel="canonical" href="https://www.turn4detail.com/#/about" />
         <script type="application/ld+json">
           {JSON.stringify(aboutSchema)}
         </script>
@@ -57,31 +57,31 @@ export default function About() {
       <Section bgColor="bg-white">
         <div className="text-zinc-800 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-24 py-12 space-y-6 leading-relaxed">
           <p>
-            Hi there! I’m Steven, the owner here at <span className="font-semibold">Section 6 Detailing</span>. Based in Kent, Washington,
-            I proudly serve the surrounding areas with top-quality auto detailing services.
+            Hi there! I’m Steven, the owner here at <span className="font-semibold">Turn 4 Detail</span>. Based in Kent, Washington,
+            We proudly serve the surrounding areas with top-quality auto detailing services.
             What began as a hobby detailing my first car has since evolved into a true passion—one that eventually
-            led to the creation of Section 6 Detailing.
+            led to the creation of Turn 4 Detail.
           </p>
 
           <p>
-            As a small, independent business, my mission is simple: <span className="font-semibold">to provide exceptional detailing that enhances and
-              preserves your vehicle’s beauty.</span> I treat every car with the precision and care it deserves, using only
+            As a small, independent business, our mission is simple: <span className="font-semibold">to provide exceptional detailing that enhances and
+              preserves your vehicle’s beauty.</span> We treat every car with the precision and care it deserves, using only
             professional-grade products to deliver flawless results.
           </p>
 
           <p>
-            I understand that not everyone is looking for the cheapest detailing—they want the best value for their money.
-            That’s why I focus on delivering superior quality without breaking the bank. My services reflect meticulous craftsmanship,
+            We understand that not everyone is looking for the cheapest detailing—they want the best value for their money.
+            That’s why we focus on delivering superior quality without breaking the bank. Our services reflect meticulous craftsmanship,
             ensuring your vehicle looks its absolute best while protecting your investments.
           </p>
 
           <p>
-            I’m always working to perfect my craft. Right now, I’m learning headlight restoration, engine bay detailing,
-            and paint touch-ups. If you're interested in these services, just let me know!
+            We're always working to perfect our craft. Right now, We're learning headlight restoration, engine bay detailing,
+            and paint touch-ups. If you're interested in these services, just let us know!
           </p>
 
           <p>
-            Thank you for choosing <span className="font-semibold">Section 6 Detailing</span>—I look forward to making your car shine!
+            Thank you for choosing <span className="font-semibold">Turn 4 Detail</span>—We look forward to making your car shine!
           </p>
         </div>
       </Section>
@@ -113,7 +113,7 @@ export default function About() {
               This service provides a deep interior clean and aims to reduce swirls by ~60% while enhancing gloss.
             </p>
             <p className="mt-4">
-              If you’re unsure which package is best, feel free to reach out anytime—I’m happy to help!
+              If you’re unsure which package is best, feel free to reach out anytime—We're happy to help!
             </p>
           </div>
 
@@ -121,7 +121,7 @@ export default function About() {
             <h3 className="font-semibold text-xl md:text-2xl mb-2">What are your hours?</h3>
             <p>
               I operate by <span className="font-semibold">appointment only</span> to give each vehicle the time and attention it deserves.
-              Contact me to schedule a session that works for you!
+              Contact us to schedule a session that works for you!
             </p>
           </div>
 
@@ -129,7 +129,7 @@ export default function About() {
             <h3 className="font-semibold text-xl md:text-2xl mb-2">Do you offer mobile services or studio services?</h3>
             <p>
               Currently, I offer both <span className="font-semibold">mobile & studio detailing services</span>.
-              However, the <span className="font-semibold">Step 3 & Step 4 Detail packages are studio-only services</span> because they require extensive time
+              However, the <span className="font-semibold">Step 4 Detail packages are studio-only services</span> because they require extensive time
               and controlled conditions to achieve the best results.
             </p>
           </div>
@@ -137,16 +137,16 @@ export default function About() {
           <div>
             <h3 className="font-semibold text-xl md:text-2xl mb-2">Do you provide your own water & electricity?</h3>
             <p>
-              Yes! I typically do not require access to your water tap or electricity for most mobile detailing services.
-              However, for <span className="font-semibold">bulk mobile detailing</span>, I may need access to ensure efficiency and consistency in the results.
+              Yes! We typically do not require access to your water tap or electricity for most mobile detailing services.
+              However, for <span className="font-semibold">bulk mobile detailing</span>, we may need access to ensure efficiency and consistency in the results.
             </p>
           </div>
 
           <div>
             <h3 className="font-semibold text-xl md:text-2xl mb-2">Where can I see your previous work?</h3>
             <p>
-              You can check out my portfolio of previous work on <a href="https://www.instagram.com/autoaftercare" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Instagram</a> and <a href="https://www.tiktok.com/@autoaftercare" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Tiktok</a>. I regularly post so you can see the level
-              of quality and attention to detail I provide! Also, check out my <a href="https://g.co/kgs/NQZvpL7" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Google page</a> for reviews from satisfied clients.
+              You can check out our portfolio of previous work on <a href="https://www.instagram.com/turn4detail" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Instagram</a> and <a href="https://www.tiktok.com/@archiv.autowerks" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Tiktok</a>. We regularly post so you can see the level
+              of quality and attention to detail we provide! Also, check out our <a href="https://g.co/kgs/NQZvpL7" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Google page</a> for reviews from satisfied clients.
             </p>
           </div>
         </div>

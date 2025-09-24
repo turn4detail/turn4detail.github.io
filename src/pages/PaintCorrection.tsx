@@ -7,8 +7,8 @@ export default function PaintCorrection() {
   const paintCorrectionSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    "name": "Section 6 Detailing",
-    "url": "https://www.section6detailing.com/#/paint-correction",
+    "name": "Turn 4 Detail",
+    "url": "https://www.turn4detail.com/#/paint-correction",
     "description": "Professional paint correction services in Kent. Remove swirl marks and scratches, restore your car’s shine.",
     "address": {
       "@type": "PostalAddress",
@@ -24,7 +24,7 @@ export default function PaintCorrection() {
       "name": "Kent"
     },
     "sameAs": [
-      "https://www.instagram.com/section6detailing",
+      "https://www.instagram.com/turn4detail",
       "https://www.tiktok.com/@archiv.auto"
     ]
   };
@@ -32,16 +32,16 @@ export default function PaintCorrection() {
   return (
     <div>
       <Helmet>
-        <title>Paint Correction | Section 6 Detailing</title>
+        <title>Paint Correction | Turn 4 Detail</title>
         <meta
           name="description"
-          content="Restore your car’s shine with professional paint correction services by Section 6 Detailing. Remove swirl marks, scratches, and imperfections in Kent and surrounding areas."
+          content="Restore your car’s shine with professional paint correction services by Turn 4 Detail. Remove swirl marks, scratches, and imperfections in Kent and surrounding areas."
         />
         <meta
           name="keywords"
           content="Kent paint correction, car paint correction, swirl mark removal, auto detailing"
         />
-        <link rel="canonical" href="https://www.section6detailing.com/#/paint-correction" />
+        <link rel="canonical" href="https://www.turn4detail.com/#/paint-correction" />
 
         <script type="application/ld+json">
           {JSON.stringify(paintCorrectionSchema)}

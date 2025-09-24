@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.section6detailing.com/sitemap.xml
+Sitemap: https://www.turn4detail.com/sitemap.xml

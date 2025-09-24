@@ -1,14 +1,14 @@
 {
-  "name": "section6detailing",
+  "name": "turn4detail",
   "private": true,
-  "version": "0.0.0",
+  "version": "3.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist",
-    "generate:sitemap": "sitemap-generator https://www.section6detailing.com/ --output ./public/sitemap.xml"
+    "generate:sitemap": "sitemap-generator https://www.turn4detail.com/ --output ./public/sitemap.xml"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",

@@ -8,11 +8,11 @@ export default function Home() {
   const homeSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    "name": "Section 6 Detailing",
-    "url": "https://www.section6detailing.com/",
-    "logo": "https://www.section6detailing.com/logo.png",
-    "image": "https://www.section6detailing.com/og-preview.jpg",
-    "description": "Section 6 Detailing offers premium mobile & studio car detailing, paint correction, ceramic coating, and cinematic car photography in Kent and surrounding areas.",
+    "name": "Turn 4 Detail",
+    "url": "https://www.turn4detail.com/",
+    "logo": "https://www.turn4detail.com/logo.png",
+    "image": "https://www.turn4detail.com/og-preview.jpg",
+    "description": "Turn 4 Detail offers premium mobile & studio car detailing, paint correction, ceramic coating, and cinematic car photography in Kent and surrounding areas.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Kent",
@@ -27,7 +27,7 @@ export default function Home() {
     },
     "openingHours": "Mo-Fr 09:00-18:00",
     "sameAs": [
-      "https://www.instagram.com/section6detailing",
+      "https://www.instagram.com/turn4detail",
       "https://www.tiktok.com/@archiv.auto"
     ]
   };
@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <div>
       <Helmet>
-        <title>Mobile & Studio Detailing Service | Section 6 Detailing</title>
+        <title>Mobile & Studio Detailing Service | Turn 4 Detail</title>
         <meta
           name="description"
           content="Mobile & studio car detailing services in Kent, WA. We offer detailing packages, paint correction, ceramic coating, and car photography services."

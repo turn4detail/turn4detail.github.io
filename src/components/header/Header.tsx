@@ -14,7 +14,7 @@ export default function Header() {
             <Link to="/">
               <img
                 src="/logo.png"
-                alt="Section 6 Detailing logo"
+                alt="Turn 4 Detail logo"
                 className="h-16 w-auto"
               />
             </Link>

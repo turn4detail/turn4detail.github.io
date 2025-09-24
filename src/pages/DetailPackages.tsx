@@ -7,10 +7,10 @@ export default function DetailPackages() {
   const detailPackagesSchema = {
     "@context": "https://schema.org",
     "@type": "AutoRepair",
-    "name": "Section 6 Detailing",
-    "url": "https://www.section6detailing.com/#/detail-packages",
-    "logo": "https://www.section6detailing.com/logo.png",
-    "description": "Explore our premium detailing packages at Section 6 Detailing. Keep your vehicle looking its best with mobile and studio car detailing in Kent and nearby areas.",
+    "name": "Turn 4 Detail",
+    "url": "https://www.turn4detail.com/#/detail-packages",
+    "logo": "https://www.turn4detail.com/logo.png",
+    "description": "Explore our premium detailing packages at Turn 4 Detail. Keep your vehicle looking its best with mobile and studio car detailing in Kent and nearby areas.",
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Kent",
@@ -25,7 +25,7 @@ export default function DetailPackages() {
       "name": "Kent"
     },
     "sameAs": [
-      "https://www.instagram.com/section6detailing",
+      "https://www.instagram.com/turn4detail",
       "https://www.tiktok.com/@archiv.auto"
     ]
   };
@@ -33,7 +33,7 @@ export default function DetailPackages() {
   return (
     <div>
       <Helmet>
-        <title>Detailing Services | Section 6 Detailing</title>
+        <title>Detailing Services | Turn 4 Detail</title>
         <meta
           name="description"
           content="Explore our premium detailing packages to keep your vehicle looking its best. Mobile & studio car detailing services in Kent and surrounding areas."
@@ -42,7 +42,7 @@ export default function DetailPackages() {
           name="keywords"
           content="Kent car detailing packages, mobile detailing, auto detailing, full detail service"
         />
-        <link rel="canonical" href="https://www.section6detailing.com/#/detail-packages" />
+        <link rel="canonical" href="https://www.turn4detail.com/#/detail-packages" />
         <script type="application/ld+json">
           {JSON.stringify(detailPackagesSchema)}
         </script>
