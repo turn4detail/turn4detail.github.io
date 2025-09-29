@@ -1,4 +1,3 @@
-import React from "react";
 import { BRAND } from "../lib/brand";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
