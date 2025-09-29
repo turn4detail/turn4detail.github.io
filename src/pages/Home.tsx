@@ -1,86 +1,39 @@
+import React from "react";
+import Header from "../components/Header";
 import Hero from "../components/Hero";
-import Section from "../components/Section";
-import Card from "../components/Card";
-import Helmet from "react-helmet";
-import Button from "../components/Button";
+import Services from "../components/Services";
+import Strip from "../components/Strip";
+import WhyUs from "../components/WhyUs";
+import Gallery from "../components/Gallery";
+import Contact from "../components/Contact";
+import FAQ from "../components/FAQ";
+import Footer from "../components/Footer";
+import { localBusinessJsonLd } from "../lib/seo";
+import SEO from "../components/SEO";
 
 export default function Home() {
-  const homeSchema = {
-    "@context": "https://schema.org",
-    "@type": "AutoRepair",
-    "name": "Turn 4 Detail",
-    "url": "https://www.turn4detail.com/",
-    "logo": "https://www.turn4detail.com/logo.png",
-    "image": "https://www.turn4detail.com/og-preview.jpg",
-    "description": "Turn 4 Detail offers premium mobile & studio car detailing, paint correction, ceramic coating, and cinematic car photography in Kent and surrounding areas.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Kent",
-      "addressRegion": "WA",
-      "postalCode": "98031",
-      "addressCountry": "US"
-    },
-    "telephone": "+1-425-306-2183",
-    "areaServed": {
-      "@type": "Place",
-      "name": "Kent"
-    },
-    "openingHours": "Mo-Fr 09:00-18:00",
-    "sameAs": [
-      "https://www.instagram.com/turn4detail",
-      "https://www.tiktok.com/@archiv.auto"
-    ]
-  };
-
   return (
-    <div>
-      <Helmet>
-        <title>Mobile & Studio Detailing Service | Turn 4 Detail</title>
-        <meta
-          name="description"
-          content="Mobile & studio car detailing services in Kent, WA. We offer detailing packages, paint correction, ceramic coating, and car photography services."
-        />
-        <meta
-          name="keywords"
-          content="Kent car detailing, mobile detailing, paint correction, ceramic coating, car photography"
-        />
-        <link rel="canonical" href="https://www.section6detawiling.com/" />
-
-        <script type="application/ld+json">
-          {JSON.stringify(homeSchema)}
-        </script>
-      </Helmet>
-
-      <Hero
-        bg="/background/home-bg-1.jpg"
-        subheading="MOBILE & STUDIO SERVICES - WE COME TO YOU OR YOU COME TO US"
-        heading="PREMIUM AUTO DETAILING BASED IN "
-        highlight="KENT"
+    <>
+      <SEO
+        title="Turn 4 Detail – Quality-First Detailing, Corrections & Coatings"
+        description="Quality over quantity. Mobile & studio detailing, paint correction, and ceramic coatings for the Greater Seattle Area."
+        url="https://www.turn4detail.com/"
+        image="https://www.turn4detail.com/og.jpg"
+        jsonLd={localBusinessJsonLd}
       />
-
-      <Section bgColor="bg-white">
-        <h2 className="text-black text-md text-2xl italic font-extrabold mb-4">AUTO CARE SERVICES</h2>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {/* ffmpeg -i ceramic-coating-1.mp4 -vf "scale=720:720,fps=24,format=yuv420p" -c:v libx264 -profile:v baseline -level 3.0 -pix_fmt yuv420p -preset medium -b:v 1200k -movflags +faststart -c:a aac -b:a 96k ceramic-coating-ffmpeg-1.mp4 */}
-          <Card title="Detailing Packages" video="/video/full-detail-ffmpeg-1.mp4" poster="/poster/full-detail-poster.jpg" to="/detail-packages" />
-          <Card title="Paint Correction" video="/video/paint-correction-ffmpeg-3.mp4" poster="/poster/paint-correction-poster.jpg" to="/paint-correction" />
-          <Card title="Ceramic Coating" video="/video/ceramic-coating-ffmpeg-2.mp4" poster="/poster/ceramic-coating-poster.jpg" to="/ceramic-coating" />
-        </div>
-      </Section>
-
-      <Section bgColor="bg-zinc-800">
-        <script src="https://static.elfsight.com/platform/platform.js" async></script>
-        <div className="elfsight-app-12c95781-bd68-4f07-80c2-6bb6b3ac10c2" data-elfsight-app-lazy></div>
-      </Section>
-
-      <Section bgColor="bg-zinc-800">
-        <div className="flex justify-center text-zinc-100 max-w-7xl text-xl mx-auto px-4 md:px-12 lg:px-6 py-6 space-y-6 leading-relaxed">
-          <div className="grid grid-cols-1">
-            <Button href='https://app.urable.com/virtual-shop/hcAqmHnMarJx8MiAcQxF'>READY TO BOOK?</Button>
-          </div>
-        </div>
-      </Section>
-    </div>
+      <div className="min-h-screen bg-black selection:bg-white selection:text-black">
+        <Header />
+        <main>
+          <Hero />
+          <Services />
+          <Strip />
+          <WhyUs />
+          <Gallery />
+          <Contact />
+          <FAQ />
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }
