@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.turn4detail.com/sitemap.xml
+
+Sitemap: https://www.turn4detai.com/sitemap.xml
