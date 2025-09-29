@@ -42,6 +42,7 @@ export default function Hero() {
           {BRAND.tagline}
         </motion.p>
         <div className="mt-8 flex gap-3">
+          <a href={BRAND.shopUrl} target="_blank" rel="noopener noreferrer" className="rounded-2xl border border-white/30 px-6 py-3 text-sm font-semibold text-white/90 backdrop-blur hover:bg-white/10">Buy Products</a>
           <a href={BRAND.bookingUrl} target="_blank" rel="noreferrer"
             className="rounded-2xl bg-white px-6 py-3 text-sm font-semibold text-zinc-900 shadow-lg">
             Book a Detail
