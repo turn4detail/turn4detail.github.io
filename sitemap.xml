@@ -1,33 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://www.turn4detail.com/</loc>
-    <lastmod>2025-09-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://www.turn4detail.com/#/detail-packages</loc>
-    <lastmod>2025-09-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.turn4detail.com/#/paint-correction</loc>
-    <lastmod>2025-09-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.turn4detail.com/#/ceramic-coating</loc>
-    <lastmod>2025-09-18</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.turn4detail.com/#/about</loc>
-    <lastmod>2025-09-18</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
-  </url>
+  <url><loc>https://www.turn4detail.com/</loc></url>
+  <url><loc>https://www.turn4detail.com/#/privacy-policy</loc></url>
+  <url><loc>https://www.turn4detail.com/#/terms-and-conditions</loc></url>
 </urlset>
