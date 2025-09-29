@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { FaInstagram, FaTiktok, FaGoogle } from "react-icons/fa6";
 import { BRAND } from "../lib/brand";
