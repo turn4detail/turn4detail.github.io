@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import { useRef } from "react";
 import { motion, useScroll, useTransform, useReducedMotion } from "framer-motion";
 import { IMAGES, BRAND } from "../lib/brand";
 import { scrollToId } from "../lib/scroll";

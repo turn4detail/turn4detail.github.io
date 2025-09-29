@@ -1,4 +1,3 @@
-import React from "react";
 import { IMAGES, BRAND } from "../lib/brand";
 import { FaInstagram, FaTiktok, FaGoogle } from "react-icons/fa6";
 
