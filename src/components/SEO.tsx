@@ -3,9 +3,9 @@ import { useEffect } from "react";
 type SEOProps = {
   title?: string;
   description?: string;
-  url?: string;        // canonical-ish (for OG/Twitter)
-  image?: string;      // absolute URL to og image
-  jsonLd?: object;     // schema.org payload
+  url?: string;
+  image?: string;
+  jsonLd?: object;
 };
 
 export default function SEO({

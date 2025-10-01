@@ -26,7 +26,6 @@ const features = [
 export default function WhyUs() {
   return (
     <>
-      {/* Why Us Section */}
       <section id="whyus" className="bg-zinc-950 py-20 text-white">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <h2 className="text-3xl font-bold md:text-4xl text-center">
@@ -62,7 +61,6 @@ export default function WhyUs() {
         </div>
       </section>
 
-      {/* SystemX Section */}
       <section className="bg-zinc-950 py-20 text-white">
         <div className="mx-auto max-w-5xl px-4 md:px-8 text-center">
           <motion.img

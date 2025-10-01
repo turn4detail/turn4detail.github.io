@@ -1,6 +1,5 @@
 import { motion, useReducedMotion } from "framer-motion";
 
-// Each item has an image and a caption
 const GALLERY_ITEMS = [
   {
     src: "/gallery/gallery-1.jpg",

@@ -21,9 +21,7 @@ export default function Footer() {
   return (
     <footer className="bg-zinc-950 text-zinc-300">
       <div className="mx-auto max-w-7xl px-4 md:px-8 py-16">
-        {/* 3 columns on md+, stacked on mobile */}
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
-          {/* Column 1 - Single row - Logo + about */}
           <div>
             <div className="flex items-center gap-3 text-white">
               <img src={IMAGES.logo} alt={`${BRAND.name} logo`} className="w-90 mx-auto" />
@@ -33,9 +31,7 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Column 2 - Two row - Hours of operation + Socials */}
           <div className="grid grid-rows-2 gap-8">
-            {/* Row 1 - Hours of operation*/}
             <div>
               <h3 className="text-white uppercase text-xl font-bold tracking-wide">Hours of Operation</h3>
               <ul className="mt-3 space-y-1.5 text-sm">
@@ -52,7 +48,6 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Row 2 - Socials */}
             <div>
               <h3 className="text-white uppercase text-xl font-bold tracking-wide">Follow Us</h3>
               <div className="mt-3 flex items-center gap-3">
@@ -93,9 +88,7 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Column 3 - Two rows - Service Areas + Contact */}
           <div className="grid grid-rows-2 gap-8">
-            {/* Row 1 - Service Areas */}
             <div>
               <h3 className="text-white uppercase text-xl font-bold tracking-wide">Areas Served</h3>
               <ul className="mt-3 grid grid-cols-2 gap-2 text-sm">
@@ -105,7 +98,6 @@ export default function Footer() {
               </ul>
             </div>
 
-            {/* Row 2 - Contact */}
             <div>
               <h3 className="text-white uppercase text-xl font-bold tracking-wide">Get in Touch</h3>
               <ul className="mt-3 space-y-2 text-sm">
@@ -131,19 +123,15 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bottom bar */}
         <div className="mt-12 border-t border-white/10 pt-6 grid grid-cols-1 gap-3 text-xs text-zinc-400 md:grid-cols-3">
-          {/* Left */}
           <div className="text-center md:text-left">
             © {new Date().getFullYear()} {BRAND.legalName}. {BRAND.name}. All rights reserved.
           </div>
 
-          {/* Middle */}
           <div className="text-center">
             Made with <span className="text-red-500">♥</span> using React & TailwindCSS
           </div>
 
-          {/* Right */}
           <div className="text-center md:text-right space-x-4">
             <a href="#/privacy-policy" className="hover:text-white">
               Privacy Policy

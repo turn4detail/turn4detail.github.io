@@ -41,7 +41,6 @@ export default function Services() {
 
   return (
     <>
-      {/* Services Section */}
       <section id="services" className="bg-zinc-950 py-20 text-white">
         <div className="mx-auto max-w-7xl px-4 md:px-8">
           <h2 className="text-3xl md:text-4xl font-bold">Signature Services</h2>
@@ -85,7 +84,6 @@ export default function Services() {
         </div>
       </section>
 
-      {/* CTA Section */}
       <section className="bg-zinc-950 py-16 text-white">
         <div className="mx-auto max-w-4xl px-4 text-center">
           <motion.h3

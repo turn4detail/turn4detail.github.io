@@ -12,7 +12,6 @@ export default function Contact() {
         </p>
 
         <div className="mt-12 grid grid-cols-1 gap-10 md:grid-cols-2">
-          {/* Left - Info */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -88,7 +87,6 @@ export default function Contact() {
             </div>
           </motion.div>
 
-          {/* Right - Urable iframe */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
