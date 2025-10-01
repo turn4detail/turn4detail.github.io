@@ -7,22 +7,31 @@ export default function Hero() {
   const sectionRef = useRef<HTMLElement | null>(null);
   const prefersReducedMotion = useReducedMotion();
 
-  // Animate while the hero scrolls from top → offscreen top
   const { scrollYProgress } = useScroll({
     target: sectionRef,
     offset: ["start start", "end start"],
   });
 
+  const enterScale = prefersReducedMotion ? 1 : 1.06;
   const scale = prefersReducedMotion ? 1 : useTransform(scrollYProgress, [0, 0.3], [1, 1.08]);
   const overlay = prefersReducedMotion ? 0.45 : useTransform(scrollYProgress, [0, 0.3], [0.35, 0.6]);
 
   return (
     <section ref={sectionRef} id="top" className="relative h-[90vh] min-h-[640px] w-full overflow-clip">
       <motion.div
+        initial={{ opacity: 0, scale: enterScale, filter: "blur(8px)" }}
+        animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
+        transition={{ duration: 1.0, ease: "easeOut" }}
         style={{ scale, backgroundImage: `url(${IMAGES.hero})` }}
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-center will-change-transform"
       />
-      <motion.div style={{ opacity: overlay }} className="absolute inset-0 bg-black" />
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: prefersReducedMotion ? 0.45 : 0.35 }}
+        style={{ opacity: overlay }}
+        transition={{ duration: 0.9, ease: "easeOut", delay: 0.05 }}
+        className="absolute inset-0 bg-black"
+      />
 
       <div className="relative z-10 mx-auto flex h-full max-w-7xl flex-col items-center justify-center px-4 text-center text-white">
         <motion.h1
