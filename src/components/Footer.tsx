@@ -1,5 +1,6 @@
 import { IMAGES, BRAND } from "../lib/brand";
 import { FaInstagram, FaTiktok, FaGoogle } from "react-icons/fa6";
+import { scrollToId } from "../lib/scroll";
 
 const SERVICE_AREAS = [
   "Seattle, WA",
@@ -24,7 +25,12 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
           <div>
             <div className="flex items-center gap-3 text-white">
-              <img src={IMAGES.logo} alt={`${BRAND.name} logo`} className="w-90 mx-auto" />
+              <a href="#bottom">
+                <img src={IMAGES.logo} alt={`${BRAND.name} logo`} className="w-90 mx-auto" onClick={(e) => {
+                          e.preventDefault();
+                          scrollToId("top");
+                        }}/>
+              </a>
             </div>
             <p className="mt-3 max-w-sm text-sm text-zinc-400 mx-auto">
               Established in 2025, Turn 4 Detail is dedicated to providing professional and friendly auto detailing services. We provide expert care with premium detailing packages designed to protect your vehicle, tailored to your needs. As a small, single-owner business, we’re here to serve you with dedication and passion. Contact Turn 4 Detail today to schedule your appointment and give your car the spa day it deserves.

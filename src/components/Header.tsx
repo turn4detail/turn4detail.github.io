@@ -18,7 +18,10 @@ export default function Header() { // fx
       <div className="mx-auto max-w-7xl px-4 md:px-8">
         <div className="flex h-16 items-center justify-between text-white">
           <a href="#top" className="flex items-center gap-3 font-semibold">
-            <img src={IMAGES.logo} alt="logo" className="w-30" />
+            <img src={IMAGES.logo} alt="logo" className="w-30" onClick={(e) => {
+                          e.preventDefault();
+                          scrollToId("top");
+                        }}/>
           </a>
           <nav className="hidden md:flex gap-8 text-sm text-zinc-200">
             <a href="#services" onClick={(e) => {
