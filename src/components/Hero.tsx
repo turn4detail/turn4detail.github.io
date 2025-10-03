@@ -17,7 +17,7 @@ export default function Hero() {
   const overlay = prefersReducedMotion ? 0.45 : useTransform(scrollYProgress, [0, 0.3], [0.35, 0.6]);
 
   return (
-    <section ref={sectionRef} id="top" className="relative h-[90vh] min-h-[640px] w-full overflow-clip">
+    <section ref={sectionRef} id="top" className="relative h-screen flex items-center justify-center  h-[90vh] min-h-[640px] w-full overflow-clip">
       <motion.div
         initial={{ opacity: 0, scale: enterScale, filter: "blur(8px)" }}
         animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
@@ -25,6 +25,7 @@ export default function Hero() {
         style={{ scale, backgroundImage: `url(${IMAGES.hero})` }}
         className="absolute inset-0 bg-cover bg-center will-change-transform"
       />
+
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: prefersReducedMotion ? 0.45 : 0.35 }}
